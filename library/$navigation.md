@@ -11,3 +11,7 @@
 - [Array.slice](?file=001-Array/07-Array.slice "Array.slice")
 - [Array.splice](?file=001-Array/08-Array.splice "Array.splice")
 - [Array.sort](?file=001-Array/09-Array.sort "Array.sort")
+
+##### String
+- [String.toLowerCase](?file=002-String/001-String.toLowerCase "String.toLowerCase")
+- [String.toUpperCase](?file=002-String/002-String.toUpperCase "String.toUpperCase")
