@@ -1,20 +1,20 @@
-## `String.toUpperCase`
+# `String.prototype.toUpperCase()`
 
-### 描述
+## 描述
 
 `toUpperCase` 会将调用该方法的字符串转为大写形式，并返回。
 
 `toUpperCase` 不会影响字符串本身。
 
-### 参数
+## 参数
 
 无
 
-### 返回值
+## 返回值
 
 一个新的字符串，转换为大写形式之后的字符串。
 
-### 示例
+## 示例
 
 ```js
 var str = 'app'

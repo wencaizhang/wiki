@@ -17,5 +17,6 @@
 - [String.toUpperCase](?file=002-String/002-String.toUpperCase "String.toUpperCase")
 
 ##### Regexp
+- [Regexp](?file=003-Regexp/01-Regexp "Regexp")
 - [Regexp.test](?file=003-Regexp/02-Regexp.test "Regexp.test")
 - [Regexp.exec](?file=003-Regexp/03-Regexp.exec "Regexp.exec")
