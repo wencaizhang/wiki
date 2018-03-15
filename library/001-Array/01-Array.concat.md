@@ -1,4 +1,4 @@
-## `Array.concat()` 连接数组
+## `Array.concat()`
 
 ### 描述
 
