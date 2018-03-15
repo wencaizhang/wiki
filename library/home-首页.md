@@ -2,7 +2,12 @@
 
 ## What is this
 
-展示 JavaScript 内置对象方法的站点，即 JavaScript 速查手册！
+**JavaScript 速查手册！**
+
+本站内容来自以下网站以及个人的理解：
++ [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
++ [W3school](http://www.w3school.com.cn/js/index.asp)
++ [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
 
 ## Contributing
 
