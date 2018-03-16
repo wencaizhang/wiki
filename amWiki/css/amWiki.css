@@ -3,8 +3,8 @@
 
 /* ---------- markdown custom ---------- */
 .markdown-body{font-size:15px;font-family: 'microsoft Yahei';letter-spacing: 1px;}
-.markdown-body h1{margin-top:50px;font-size:38px;border-bottom:#d5d5d5 1px solid;}
-.markdown-body h2{margin-top:50px;font-size:32px;border-bottom:#ddd 1px solid;}
+.markdown-body h1{margin-top:50px;font-size:32px;border-bottom:#d5d5d5 1px solid;}
+.markdown-body h2{margin-top:50px;font-size:26px;border-bottom:#ddd 1px solid;}
 .markdown-body h3{margin-top:32px;margin-bottom:14px;}
 .markdown-body h2 + h3{margin-top:24px;}
 .markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre{margin-bottom:12px;}
@@ -20,7 +20,7 @@
 .markdown-body input[type="checkbox"]{margin-right:5px;vertical-align:middle;cursor:pointer;}
 .markdown-body input[type="checkbox"]+label{vertical-align:middle;margin-right:7px;cursor:pointer;}
 .markdown-body pre{position:relative;}
-.markdown-body pre code{padding-top:0.15em;padding-bottom:0.15em;margin:0 1px;font-size:90%;color:#000;word-wrap:break-word;white-space:pre-wrap;}
+.markdown-body pre code{padding-top:0.15em;padding-bottom:0.15em;margin:0 1px;font-size:100%;color:#000;word-wrap:break-word;white-space:pre-wrap;}
 .markdown-body pre code.hljs{color:#333;}
 .markdown-body .hljs-string{color:#183691;}
 .markdown-body .hljs-built_in{color:#0086b3;}
