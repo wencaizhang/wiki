@@ -4,7 +4,7 @@
 
 **JavaScript 速查手册！**
 
-本站内容来自以下网站以及个人的理解：
+此文档为本人复习 JavaScript 基础知识时所整理，文档内容来自以下网站以及个人的理解：
 + [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 + [W3school](http://www.w3school.com.cn/js/index.asp)
 + [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
@@ -17,4 +17,4 @@
 
 ## End
 
-Just for fun！
+JUST FOR FUN!

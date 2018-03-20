@@ -1,8 +1,8 @@
-# `Array.prototype.pop()`
+# `Array.prototype.shift()`
 
 ## 描述
 
-从一个数组中删除并返回第一个元素。
+从一个数组中删除并返回第一个元素。（修改原数组）
 
 ## 参数
 
