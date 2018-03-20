@@ -17,6 +17,7 @@
 - [Array.forEach](?file=002-Array-ES5/01-Array.forEach "Array.forEach")
 - [Array.map](?file=002-Array-ES5/02-Array.map "Array.map")
 - [Array.filter](?file=002-Array-ES5/03-Array.filter "Array.filter")
+- [Array.indexOf](?file=002-Array-ES5/04-Array.indexOf "Array.indexOf")
 
 ##### String
 - [String.toLowerCase](?file=003-String/001-String.toLowerCase "String.toLowerCase")
