@@ -10,11 +10,13 @@
 - [Array.unshift](?file=001-Array-ES3/06-Array.unshift "Array.unshift")
 - [Array.slice](?file=001-Array-ES3/07-Array.slice "Array.slice")
 - [Array.splice](?file=001-Array-ES3/08-Array.splice "Array.splice")
-- [Array.sort](?file=001-Array-ES3/09-Array.sort "Array.sort")
+- [Array.reverse](?file=001-Array-ES3/09-Array.reverse "Array.reverse")
+- [Array.sort](?file=001-Array-ES3/10-Array.sort "Array.sort")
 
 ##### Array-ES5
 - [Array.forEach](?file=002-Array-ES5/01-Array.forEach "Array.forEach")
 - [Array.map](?file=002-Array-ES5/02-Array.map "Array.map")
+- [Array.filter](?file=002-Array-ES5/03-Array.filter "Array.filter")
 
 ##### String
 - [String.toLowerCase](?file=003-String/001-String.toLowerCase "String.toLowerCase")
