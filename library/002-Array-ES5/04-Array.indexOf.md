@@ -108,3 +108,40 @@ Array.prototype.indexOf = function (searchElement, fromIndex) {
 }
 
 ```
+
+## 拓展
+
+`indexOf` 只能得到查找元素在数组中首次出现位置的索引，那如何得到该元素在数组中所有出现位置的索引呢？
+
+下面是实现方法：
+
+```js
+/*
+*  返回查找元素在数组中所有的索引组成的数组，如果数组中不存在此元素，返回空数组。
+*/
+Array.prototype.allIndexOf = function (searchElement) {
+    var arr = this;
+    var se = searchElement;
+    var arrIndex = [];
+    var index = 0;
+
+    for (var i = 0; i < arr.length; i++) {
+        index = arr.indexOf(se, i);
+        if (index === -1) {
+            return [];
+        }
+        arrIndex.push(index);
+        i = index;
+    }
+    return arrIndex;
+}
+```
+
++ 测试
+
+```js
+var arr = [ 1, 2, 3, 2, 1];
+
+console.log( arr.allIndexOf(1) );  //  [0, 4]
+console.log( arr.allIndexOf(9) );  //  []
+```
