@@ -164,6 +164,7 @@
         </div>
         <!-- js -->
         <div class="hidden">
+	    <!-- 原始文件  -->
 	    <!--
             <script type="text/javascript" src="amWiki/js/gbk.js"></script>
             <script type="text/javascript" src="amWiki/js/pinyin.js"></script>
@@ -183,13 +184,16 @@
             <script type="text/javascript" src="amWiki/js/amWiki.js"></script>
 	    -->
 
+	    <!-- 打包文件  -->
 	    <!--
             <script type="text/javascript" src="dist/all0.js"></script>
             <script type="text/javascript" src="dist/all1.js"></script>
             <script type="text/javascript" src="dist/all2.js"></script>
             <script type="text/javascript" src="dist/all3.js"></script>
 	    -->
-            
+
+	    <!-- 打包文件存放在 七牛云，可以有更快的加载速度 -->
+	    <!-- 但是 github 使用 https 协议，七牛云使用 http 协议，因此 github pages 功能无法使用  -->
             <script type="text/javascript" src="//p5w9o1ozt.bkt.clouddn.com/all0.js"></script>
             <script type="text/javascript" src="//p5w9o1ozt.bkt.clouddn.com/all1.js"></script>
             <script type="text/javascript" src="//p5w9o1ozt.bkt.clouddn.com/all2.js"></script>
