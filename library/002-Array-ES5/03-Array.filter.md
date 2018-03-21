@@ -4,21 +4,20 @@
 
 ## 描述
 
-对原数组中的每个元素都按照顺序调用一次 callback 函数。callback 每次执行后的返回值（包括 `undefined`）组合起来形成一个新数组。
+对数组进行遍历，并对数组每个元素都调用一次 callback 函数，callback 函数返回布尔值 true 或 false，返回 true 的元素组成一个新数组作为 `filter()` 方法的返回值。
+
+callback 函数有三个参数，依次是：
+1. 遍历的数组元素
+2. 对应的元素索引
+3. 数组本身
 
 ## 参数
 
 参数 | 描述
 --- | ---
 callback | `function` 类型，必需。数组中每个元素需要调用的函数
-thisValue | 可选。执行回调时的上下文（this）
+context | 可选。执行回调时的上下文（this）
 
-callback 回调函数支持 3 个参数，依次是：
-1. 遍历的数组元素
-2. 对应的元素索引
-3. 数组本身
-
-另外，callback 需要返回布尔类型的值
 ## 返回值
 
 过滤后的新数组
@@ -30,7 +29,7 @@ callback 回调函数支持 3 个参数，依次是：
 ```js
 var arr = [ 'a', 'b', 'c' ];
 
-arr.map(function(value, index, array) {
+arr.filter(function(value, index, array) {
     console.log( value, index, array )
 });
 
@@ -39,56 +38,19 @@ arr.map(function(value, index, array) {
 //  c 2 ["a", "b", "c"]
 ```
 
-+ callback 需要有 return 值，否则会被映射成 `undefined`
++ callback 返回值如果不是布尔值，则会默认被转换成布尔值
 
 ```js
-var data = [ 1, 2, 3 ];
+var data = [ 0, 1, 2, 3 ];
 
-// 无 return 值
-var arrOfSquares = data.map(function (item) {});
-
-console.log(arrOfSquares);  // [undefined, undefined, undefined]
-```
-
-+ 求平方
-
-```js
-var data = [ 1, 2, 3 ];
-
-var arrOfSquares = data.map(function (item) {
-    return item * item;
+var arrFilter= data.filter(function (item) {
+    return item;
 });
 
-console.log(arrOfSquares);  // [ 1, 4, 9 ]
-```
-
-+ 获取对象数组中的特定属性值们
-
-```js
-var users = [
-    { name: 'a', age: 18 },
-    { name: 'b', age: 19 },
-    { name: 'c', age: 21 }
-]
-
-var ages = users.map(function (user) {
-    return user.age;
-});
-
-console.log(ages);  // [18, 19, 21]
+console.log(arrFilter);  // [ 1, 2, 3 ]
 ```
 
 ## 模拟实现
 
 ```js
-if (typeof Array.prototype.map != 'function') {
-    Array.prototype.map = function (fn, context) {
-        var arr = [];
-        if (typeof fn === 'function') {
-            for (var i = 0, len = this.length; i < len; k++) {
-                arr.push(fn.call(context, this[i], k, this));
-            }
-        }
-    }
-}
 ```
