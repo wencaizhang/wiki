@@ -9,18 +9,18 @@
 参数 | 描述
 --- | ---
 searchElement | 要查找的元素
-fromIndex | 可选。开始查找的位置，如果该索引值大于或等于数组长度，意味着不会在数组里查找，返回 -1 。如果参数提供的是一个复制，则将其作为数组末尾的一个抵消，即 -1 表示从最后一个元素开始查找， -2 表示从倒数第二个元素开始查找，以此类推（查找顺序不变，仍然是从前向后查询数组）。如果抵消后的索引值仍小于 0 ，则整个数组都会被查询。默认值为 0 。
+fromIndex | 可选。开始查找的位置，如果该索引值大于或等于数组长度，意味着不会在数组里查找，返回 -1 。如果参数提供的是一个负值，则将其作为数组末尾的一个抵消，即 -1 表示从最后一个元素开始查找， -2 表示从倒数第二个元素开始查找，以此类推（查找顺序不变，仍然是从前向后查询数组）。如果抵消后的索引值仍小于 0 ，则整个数组都会被查询。默认值为 0 。
 
 ## 返回值
 
-首个被找到的元素在数组中的索引位置，若没有找到则返回 -1 。
+首个被找到的元素在数组中的索引，若没有找到则返回 -1 。
 
 ## 示例
 
-+ 普通查找
++ 返回首个被查找到的元素的索引
 
 ```js
-var arr = [ 'a', 'b', 'c' ];
+var arr = [ 'a', 'b', 'c', 'a' ];
 
 var indexB = arr.indexOf('b');
 
@@ -36,19 +36,11 @@ console.log(indexD);  //  -1
 ```js
 var arr = [1, 2, 3];
 
-var index = arr.indexOf('2');
+var indexStr = arr.indexOf('2');
+var indexNum = arr.indexOf(2);
 
-console.log(index);  //  -1
-```
-
-+ `indexOf()` 返回**首个**被找到元素的索引
-
-```js
-var arr = [ 'a', 'b', 'c', 'b', 'a' ];
-
-var indexB = arr.indexOf('b');
-
-console.log(indexB);  //  1
+console.log(indexStr);  //  -1
+console.log(indexNum);  //  1
 ```
 
 + 使用 `fromeIndex` 参数
@@ -56,9 +48,11 @@ console.log(indexB);  //  1
 ```js
 var arr = [ 'a', 'b', 'c', 'b', 'a' ];
 
-var indexB = arr.indexOf('b', 2);
+var indexB1 = arr.indexOf('b');
+var indexB2 = arr.indexOf('b', 2);
 
-console.log(indexB);  //  3 
+console.log(indexB1);  //  1
+console.log(indexB2);  //  3 
 ```
 
 + `fromIndex` 大于或等于数组长度，返回 -1 
@@ -102,16 +96,14 @@ Array.prototype.indexOf = function (searchElement, fromIndex) {
             return i;
         }
     } 
-    if (i >= len - 1) {
-        return -1
-    }
+    return -1
 }
 
 ```
 
 ## 拓展
 
-`indexOf` 只能得到查找元素在数组中首次出现位置的索引，那如何得到该元素在数组中所有出现位置的索引呢？
+`indexOf` 存在一个局限性，就是它只能得到查找元素在数组中首次出现位置的索引，那如何得到该元素在数组中所有出现位置的索引呢？
 
 下面是实现方法：
 
