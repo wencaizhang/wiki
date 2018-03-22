@@ -17,14 +17,28 @@
 - [Array.forEach](?file=002-Array-ES5/01-Array.forEach "Array.forEach")
 - [Array.map](?file=002-Array-ES5/02-Array.map "Array.map")
 - [Array.filter](?file=002-Array-ES5/03-Array.filter "Array.filter")
-- [Array.indexOf](?file=002-Array-ES5/04-Array.indexOf "Array.indexOf")
-- [Array.lastIndexOf](?file=002-Array-ES5/05-Array.lastIndexOf "Array.lastIndexOf")
+- [Array.some](?file=002-Array-ES5/04-Array.some "Array.some")
+- [Array.every](?file=002-Array-ES5/05-Array.every "Array.every")
+- [Array.indexOf](?file=002-Array-ES5/06-Array.indexOf "Array.indexOf")
+- [Array.lastIndexOf](?file=002-Array-ES5/07-Array.lastIndexOf "Array.lastIndexOf")
+
+##### Array-ES6
+- [Array.from](?file=003-Array-ES6/01-Array.from "Array.from")
+- [Array.of](?file=003-Array-ES6/02-Array.of "Array.of")
+- [Array.copyWithin](?file=003-Array-ES6/03-Array.copyWithin "Array.copyWithin")
+- [Array.find](?file=003-Array-ES6/04-Array.find "Array.find")
+- [Array.findIndex](?file=003-Array-ES6/05-Array.findIndex "Array.findIndex")
+- [Array.fill](?file=003-Array-ES6/06-Array.fill "Array.fill")
+- [Array.entries](?file=003-Array-ES6/07-Array.entries "Array.entries")
+- [Array.keys](?file=003-Array-ES6/08-Array.keys "Array.keys")
+- [Array.values](?file=003-Array-ES6/09-Array.values "Array.values")
+- [Array.includes](?file=003-Array-ES6/10-Array.includes "Array.includes")
 
 ##### String
-- [String.toLowerCase](?file=003-String/001-String.toLowerCase "String.toLowerCase")
-- [String.toUpperCase](?file=003-String/002-String.toUpperCase "String.toUpperCase")
+- [String.toLowerCase](?file=004-String/001-String.toLowerCase "String.toLowerCase")
+- [String.toUpperCase](?file=004-String/002-String.toUpperCase "String.toUpperCase")
 
 ##### Regexp
-- [Regexp](?file=004-Regexp/01-Regexp "Regexp")
-- [Regexp.test](?file=004-Regexp/02-Regexp.test "Regexp.test")
-- [Regexp.exec](?file=004-Regexp/03-Regexp.exec "Regexp.exec")
+- [Regexp](?file=005-Regexp/01-Regexp "Regexp")
+- [Regexp.test](?file=005-Regexp/02-Regexp.test "Regexp.test")
+- [Regexp.exec](?file=005-Regexp/03-Regexp.exec "Regexp.exec")

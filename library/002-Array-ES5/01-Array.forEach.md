@@ -2,17 +2,17 @@
 
 ## 描述
 
-对数组进行遍历，并对每个元素执行一次回调函数。
+`forEach()` 方法对数组每一项运行给定函数 fn，无返回值。另外，还可以指定函数 fn 的上下文环境（`this`）。
 
 ## 参数
 
 参数 | 描述
 --- | ---
-callback | `function` 类型，必需。数组中每个元素需要调用的函数
-thisValue | 可选。执行回调时的上下文（this）
+fn | `function` 类型，必需。数组中每个元素需要调用的函数
+context | 可选。执行回调时的上下文（this）
 
 
-callback 回调函数支持 3 个参数，依次是：
+fn 函数支持 3 个参数，依次是：
 1. 遍历的数组元素
 2. 对应的元素索引
 3. 数组本身
@@ -23,7 +23,7 @@ callback 回调函数支持 3 个参数，依次是：
 
 ## 示例
 
-+ 打印 callback 的参数
++ 打印 fn 的参数
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -37,7 +37,7 @@ arr.forEach(function(value, index, array) {
 //  c 2 ["a", "b", "c"]
 ```
 
-+ 指定 callback 中 this 的值
++ 指定 fn 中 this 的值
 
 ```js
 var database = {

@@ -6,8 +6,9 @@
 
 此文档为本人复习 JavaScript 基础知识时所整理，文档内容来自以下网站以及个人的理解：
 + [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-+ [W3school](http://www.w3school.com.cn/js/index.asp)
 + [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
++ [JavaScript 高级程序设计](https://book.douban.com/subject/10546125/)
++ [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 
 ## Contributing
 
