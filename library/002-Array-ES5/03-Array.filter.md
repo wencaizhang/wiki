@@ -53,4 +53,12 @@ console.log(arrFilter);  // [ 1, 2, 3 ]
 ## 模拟实现
 
 ```js
+Array.prototype.filter = function (fn, context) {
+    var arr = [];
+    for (var i = 0; i < this.length; i++) {
+        var bool = fn.call(context, this[i], i, this);
+        if (bool) arr.push(this[i]);
+    }
+    return arr;
+}
 ```
