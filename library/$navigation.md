@@ -23,6 +23,7 @@
 - [Array.lastIndexOf](?file=002-Array-ES5/07-Array.lastIndexOf "Array.lastIndexOf")
 - [Array.reduce](?file=002-Array-ES5/08-Array.reduce "Array.reduce")
 - [Array.reduceRight](?file=002-Array-ES5/09-Array.reduceRight "Array.reduceRight")
+- [Array.isArray](?file=002-Array-ES5/10-Array.isArray "Array.isArray")
 
 ##### Array-ES6
 - [Array.from](?file=003-Array-ES6/01-Array.from "Array.from")
