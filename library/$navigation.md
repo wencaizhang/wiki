@@ -45,3 +45,4 @@
 - [Regexp](?file=005-Regexp/01-Regexp "Regexp")
 - [Regexp.test](?file=005-Regexp/02-Regexp.test "Regexp.test")
 - [Regexp.exec](?file=005-Regexp/03-Regexp.exec "Regexp.exec")
+- [regexp-demos](?file=005-Regexp/04-regexp-demos "regexp-demos")

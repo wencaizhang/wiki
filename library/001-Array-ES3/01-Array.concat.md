@@ -55,9 +55,9 @@ arr.concat(4, [ 5, [ 6, 7] ]); // [ 1, 2, 4, 5, [ 6, 7 ] ]
 *  模拟原生 Array.concat()
 */
 
-function concat () {
+Array.prototype.concat = function () {
     var args = arguments;
-    var arr = [];
+    var arr = this;
     for ( var i = 0; i < args.length; i++ ) {
         var item = args[i];
         if ( item instanceof Array ) {

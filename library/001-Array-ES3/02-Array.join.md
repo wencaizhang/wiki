@@ -16,12 +16,32 @@ separator | 可选。 指定要选的分隔符，如果省略，则使用逗号�
 
 ## 示例
 
++ 数组元素为基本类型
+
 ```js
 var arr = [ 1, 2, 3 ];
 
-arr.join();      // '1,2,3'
+arr.join();      // "1,2,3"
 
-arr.join( '+' ); // '1+2+3'
+arr.join( '+' ); // "1+2+3"
+```
+
++ 数组元素为数组对象
+
+```js
+var arr = [ 1, 2, [ 3, 4 ] ];
+
+arr.join();    // "1,2,3,4"
+
+arr.join('+'); // "1+2+3,4"
+```
+
++ 数组元素为对象
+
+```js
+var arr = [ 1, 2, { name: 'zwc' } ];
+
+arr.join(); // "1,2,[object Object]"
 ```
 
 ## 模拟实现
@@ -31,21 +51,28 @@ arr.join( '+' ); // '1+2+3'
 *  模拟原生 Array.concat()
 */
 
-function join () {
+Array.prototype.join = function () {
 
-    var separator = arguments && arguments[0] || ',';
+    var sep = arguments && arguments[0] || ',';
     var str = '';
-    var arr = this;
 
-    for ( var i = 0; i < arr.length; i++ ) {
-        var item = arr[i];
+    for ( var i = 0; i < this.length; i++ ) {
+        var item = this[i];
+
+        item === undefined ? '' : item;
+        item === null ? '' : item;
+
         if ( item instanceof Array ) {
             for( var j = 0; j < item.length; j++ ) {
-                str += item; 
+                var s = j === 0 ? sep : ','
+                str += s + item[j]; 
             }
+        } else if ( item instanceof Object ) {
+            str += sep + item.toString();
         } else {
-            str += item; 
+            str += sep + item; 
         }
     }
+    return str.replace(sep, '');
 }
 ```
