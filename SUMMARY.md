@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-* [Array of ES3](001-Array-ES3/01-Array.concat.md)
+* Array of ES3
 	* [concat](001-Array-ES3/01-Array.concat.md)
 	* [join](001-Array-ES3/02-Array.join.md)
 	* [push](001-Array-ES3/03-Array.push.md)
@@ -13,7 +13,8 @@
 	* [splice](001-Array-ES3/08-Array.splice.md)
 	* [reverse](001-Array-ES3/09-Array.reverse.md)
 	* [sort](001-Array-ES3/10-Array.sort.md)
-* [Array-ES5]()
+
+* Array-ES5
 	* [forEach](002-Array-ES5/01-Array.forEach.md)
 	* [map](002-Array-ES5/02-Array.map.md)
 	* [filter](002-Array-ES5/03-Array.filter.md)
@@ -24,7 +25,8 @@
 	* [reduce](002-Array-ES5/08-Array.reduce.md)
 	* [reduceRight](002-Array-ES5/09-Array.reduceRight.md)
 	* [isArray](002-Array-ES5/10-Array.isArray.md)
-* [Array-ES6]()
+
+* Array-ES6
 	* [from](003-Array-ES6/01-Array.from.md)
 	* [of](003-Array-ES6/02-Array.of.md)
 	* [copyWithin](003-Array-ES6/03-Array.copyWithin.md)
@@ -35,9 +37,11 @@
 	* [keys](003-Array-ES6/08-Array.keys.md)
 	* [values](003-Array-ES6/09-Array.values.md)
 	* [includes](003-Array-ES6/10-Array.includes.md)
-* [String]()
+
+* String
 	* [toLowerCase](004-String/001-String.toLowerCase.md)
 	* [toUpperCase](004-String/002-String.toUpperCase.md)
+
 * [Regexp](005-Regexp/01-Regexp.md)
 	* [test](005-Regexp/02-Regexp.test.md)
 	* [exec](005-Regexp/03-Regexp.exec.md)
