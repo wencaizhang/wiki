@@ -1,0 +1,82 @@
+{
+"title" : "JavaScript 核心参考手册",
+"author" : "wencaizhang",
+"description" : "JavaScript 核心参考手册",
+"language" : "zh-hans",
+"links" : {
+	"sidebar" : {
+	}
+},
+
+"styles": {
+	"website": "styles/website.css"
+},
+"plugins": [
+	"github",
+	"github-buttons",
+	"splitter",
+	"copy-code-button",
+	"expandable-chapters-small",
+	"-sharing",
+	"sharing-plus",
+	"edit-link",
+	"anchor-navigation-ex",
+	"tbfed-pagefooter"
+],
+
+"pluginsConfig": {
+	"github": {
+		"url": "https://github.com/wencaizhang"
+	},
+	"github-buttons": {
+		"buttons": [{
+			"user": "wencaizhang",
+			"repo": "frontend-interview",
+			"type": "star",
+			"size": "small"
+		}]
+	},
+	"tbfed-pagefooter": {
+		"copyright":"Copyright &copy wencaizhang 2017",
+		"modify_label": "该文件修订时间：",
+		"modify_format": "YYYY-MM-DD HH:mm:ss"
+	},
+	"anchor-navigation-ex": {
+		"isShowTocTitleIcon": true,
+		"tocLevel1Icon": "fa fa-hand-o-right",
+		"tocLevel2Icon": "fa fa-hand-o-right",
+		"tocLevel3Icon": "fa fa-hand-o-right"
+	},
+	"edit-link": {
+		"base": "https://github.com/wencaizhang/frontend-interview/edit/master",
+		"label": "Edit This Page"
+	},
+	"sharing": {
+		 "douban": false,
+		 "facebook": false,
+		 "google": false,
+		 "hatenaBookmark": false,
+		 "instapaper": false,
+		 "line": false,
+		 "linkedin": false,
+		 "messenger": false,
+		 "pocket": false,
+		 "qq": false,
+		 "qzone": false,
+		 "stumbleupon": false,
+		 "twitter": false,
+		 "viber": false,
+		 "vk": false,
+		 "weibo": false,
+		 "whatsapp": false,
+		 "all": [
+				 "facebook", "google", "twitter",
+				 "weibo", "instapaper", "linkedin",
+				 "pocket", "stumbleupon"
+		 ]
+ },
+	"theme-default": {
+		"showLevel": true
+	}
+}
+}

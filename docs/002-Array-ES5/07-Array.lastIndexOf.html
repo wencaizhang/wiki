@@ -1,0 +1,1004 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>lastIndexOf · JavaScript 核心参考手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="wencaizhang">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="08-Array.reduce.html" />
+    
+    
+    <link rel="prev" href="06-Array.indexOf.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"wencaizhang","repo":"frontend-interview","type":"star","size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../001-Array-ES3/01-Array.concat.html">
+            
+                <a href="../001-Array-ES3/01-Array.concat.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    Array of ES3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../001-Array-ES3/01-Array.concat.html">
+            
+                <a href="../001-Array-ES3/01-Array.concat.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    concat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../001-Array-ES3/02-Array.join.html">
+            
+                <a href="../001-Array-ES3/02-Array.join.html">
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    join
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../001-Array-ES3/03-Array.push.html">
+            
+                <a href="../001-Array-ES3/03-Array.push.html">
+            
+                    
+                        <b>1.2.3.</b>
+                    
+                    push
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../001-Array-ES3/04-Array.pop.html">
+            
+                <a href="../001-Array-ES3/04-Array.pop.html">
+            
+                    
+                        <b>1.2.4.</b>
+                    
+                    pop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../001-Array-ES3/05-Array.shift.html">
+            
+                <a href="../001-Array-ES3/05-Array.shift.html">
+            
+                    
+                        <b>1.2.5.</b>
+                    
+                    shift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../001-Array-ES3/06-Array.unshift.html">
+            
+                <a href="../001-Array-ES3/06-Array.unshift.html">
+            
+                    
+                        <b>1.2.6.</b>
+                    
+                    unshift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../001-Array-ES3/07-Array.slice.html">
+            
+                <a href="../001-Array-ES3/07-Array.slice.html">
+            
+                    
+                        <b>1.2.7.</b>
+                    
+                    slice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../001-Array-ES3/08-Array.splice.html">
+            
+                <a href="../001-Array-ES3/08-Array.splice.html">
+            
+                    
+                        <b>1.2.8.</b>
+                    
+                    splice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../001-Array-ES3/09-Array.reverse.html">
+            
+                <a href="../001-Array-ES3/09-Array.reverse.html">
+            
+                    
+                        <b>1.2.9.</b>
+                    
+                    reverse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../001-Array-ES3/10-Array.sort.html">
+            
+                <a href="../001-Array-ES3/10-Array.sort.html">
+            
+                    
+                        <b>1.2.10.</b>
+                    
+                    sort
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    Array-ES5
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="01-Array.forEach.html">
+            
+                <a href="01-Array.forEach.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    forEach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="02-Array.map.html">
+            
+                <a href="02-Array.map.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="03-Array.filter.html">
+            
+                <a href="03-Array.filter.html">
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    filter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="04-Array.some.html">
+            
+                <a href="04-Array.some.html">
+            
+                    
+                        <b>1.3.4.</b>
+                    
+                    some
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="05-Array.every.html">
+            
+                <a href="05-Array.every.html">
+            
+                    
+                        <b>1.3.5.</b>
+                    
+                    every
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="06-Array.indexOf.html">
+            
+                <a href="06-Array.indexOf.html">
+            
+                    
+                        <b>1.3.6.</b>
+                    
+                    indexOf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="07-Array.lastIndexOf.html">
+            
+                <a href="07-Array.lastIndexOf.html">
+            
+                    
+                        <b>1.3.7.</b>
+                    
+                    lastIndexOf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="08-Array.reduce.html">
+            
+                <a href="08-Array.reduce.html">
+            
+                    
+                        <b>1.3.8.</b>
+                    
+                    reduce
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="09-Array.reduceRight.html">
+            
+                <a href="09-Array.reduceRight.html">
+            
+                    
+                        <b>1.3.9.</b>
+                    
+                    reduceRight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="10-Array.isArray.html">
+            
+                <a href="10-Array.isArray.html">
+            
+                    
+                        <b>1.3.10.</b>
+                    
+                    isArray
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    Array-ES6
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../003-Array-ES6/01-Array.from.html">
+            
+                <a href="../003-Array-ES6/01-Array.from.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    from
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../003-Array-ES6/02-Array.of.html">
+            
+                <a href="../003-Array-ES6/02-Array.of.html">
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    of
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../003-Array-ES6/03-Array.copyWithin.html">
+            
+                <a href="../003-Array-ES6/03-Array.copyWithin.html">
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    copyWithin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../003-Array-ES6/04-Array.find.html">
+            
+                <a href="../003-Array-ES6/04-Array.find.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    find
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../003-Array-ES6/05-Array.findIndex.html">
+            
+                <a href="../003-Array-ES6/05-Array.findIndex.html">
+            
+                    
+                        <b>1.4.5.</b>
+                    
+                    findIndex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../003-Array-ES6/06-Array.fill.html">
+            
+                <a href="../003-Array-ES6/06-Array.fill.html">
+            
+                    
+                        <b>1.4.6.</b>
+                    
+                    fill
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../003-Array-ES6/07-Array.entries.html">
+            
+                <a href="../003-Array-ES6/07-Array.entries.html">
+            
+                    
+                        <b>1.4.7.</b>
+                    
+                    entries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../003-Array-ES6/08-Array.keys.html">
+            
+                <a href="../003-Array-ES6/08-Array.keys.html">
+            
+                    
+                        <b>1.4.8.</b>
+                    
+                    keys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../003-Array-ES6/09-Array.values.html">
+            
+                <a href="../003-Array-ES6/09-Array.values.html">
+            
+                    
+                        <b>1.4.9.</b>
+                    
+                    values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../003-Array-ES6/10-Array.includes.html">
+            
+                <a href="../003-Array-ES6/10-Array.includes.html">
+            
+                    
+                        <b>1.4.10.</b>
+                    
+                    includes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                        <b>1.5.</b>
+                    
+                    String
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../004-String/001-String.toLowerCase.html">
+            
+                <a href="../004-String/001-String.toLowerCase.html">
+            
+                    
+                        <b>1.5.1.</b>
+                    
+                    toLowerCase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../004-String/002-String.toUpperCase.html">
+            
+                <a href="../004-String/002-String.toUpperCase.html">
+            
+                    
+                        <b>1.5.2.</b>
+                    
+                    toUpperCase
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../005-Regexp/01-Regexp.html">
+            
+                <a href="../005-Regexp/01-Regexp.html">
+            
+                    
+                        <b>1.6.</b>
+                    
+                    Regexp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../005-Regexp/02-Regexp.test.html">
+            
+                <a href="../005-Regexp/02-Regexp.test.html">
+            
+                    
+                        <b>1.6.1.</b>
+                    
+                    test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../005-Regexp/03-Regexp.exec.html">
+            
+                <a href="../005-Regexp/03-Regexp.exec.html">
+            
+                    
+                        <b>1.6.2.</b>
+                    
+                    exec
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >lastIndexOf</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#arrayprototypelastindexof"><b>1.3.7.1. </b>Array.prototype.lastIndexOf()</a></li><ul><li><span class="title-icon "></span><a href="#&#x63CF;&#x8FF0;"><b>1.3.7.1.1. </b>&#x63CF;&#x8FF0;</a></li><li><span class="title-icon "></span><a href="#&#x53C2;&#x6570;"><b>1.3.7.1.2. </b>&#x53C2;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x8FD4;&#x56DE;&#x503C;"><b>1.3.7.1.3. </b>&#x8FD4;&#x56DE;&#x503C;</a></li><li><span class="title-icon "></span><a href="#&#x793A;&#x4F8B;"><b>1.3.7.1.4. </b>&#x793A;&#x4F8B;</a></li><li><span class="title-icon "></span><a href="#&#x6A21;&#x62DF;&#x5B9E;&#x73B0;"><b>1.3.7.1.5. </b>&#x6A21;&#x62DF;&#x5B9E;&#x73B0;</a></li></ul></ul></div><a href="#arrayprototypelastindexof" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="arrayprototypelastindexof"><a name="arrayprototypelastindexof" class="anchor-navigation-ex-anchor" href="#arrayprototypelastindexof"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1. Array.prototype.lastIndexOf()</h1>
+<h2 id="&#x63CF;&#x8FF0;"><a name="&#x63CF;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#&#x63CF;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1.1. &#x63CF;&#x8FF0;</h2>
+<p><code>lastIndexOf()</code> &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x5728;&#x6307;&#x5B9A;&#x5143;&#x7D20;&#x5728;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x7684;&#x7D22;&#x5F15;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#x5219;&#x8FD4;&#x56DE; -1 &#x3002;</p>
+<p>&#x67E5;&#x627E;&#x65B9;&#x5F0F;&#x4E3A;&#x4ECE;&#x6570;&#x7EC4;&#x7684;&#x540E;&#x9762;&#x5411;&#x524D;&#x67E5;&#x627E;&#xFF0C;&#x4ECE; <code>fromIndex</code> &#x5904;&#x5F00;&#x59CB;&#xFF08;&#x4F7F;&#x7528;&#x5168;&#x7B49;&#x64CD;&#x4F5C;&#x7B26;&#xFF09;&#x3002;</p>
+<h2 id="&#x53C2;&#x6570;"><a name="&#x53C2;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1.2. &#x53C2;&#x6570;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>searchElement</td>
+<td>&#x8981;&#x67E5;&#x627E;&#x7684;&#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td>fromIndex</td>
+<td>&#x53EF;&#x9009;&#x3002;&#x5F00;&#x59CB;&#x67E5;&#x627E;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5728;&#x6B64;&#x4F4D;&#x7F6E;&#x5F00;&#x59CB;&#x4ECE;&#x540E;&#x5411;&#x524D;&#x67E5;&#x627E;&#x3002;&#x5982;&#x679C;&#x8BE5;&#x503C;&#x4E3A;&#x8D1F;&#x503C;&#x4E14;&#x7EDD;&#x5BF9;&#x503C;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#xFF0C;&#x5219;&#x8FD4;&#x56DE; -1 &#x3002;&#x5982;&#x679C;&#x53C2;&#x6570;&#x63D0;&#x4F9B;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x8D1F;&#x503C;&#xFF0C;&#x5219;&#x5C06;&#x5176;&#x4F5C;&#x4E3A;&#x6570;&#x7EC4;&#x672B;&#x5C3E;&#x7684;&#x4E00;&#x4E2A;&#x62B5;&#x6D88;&#xFF0C;&#x5373; -1 &#x8868;&#x793A;&#x4ECE;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x67E5;&#x627E;&#xFF0C; -2 &#x8868;&#x793A;&#x4ECE;&#x5012;&#x6570;&#x7B2C;&#x4E8C;&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x67E5;&#x627E;&#xFF0C;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;&#xFF08;&#x67E5;&#x627E;&#x987A;&#x5E8F;&#x4E0D;&#x53D8;&#xFF0C;&#x4ECD;&#x7136;&#x662F;&#x4ECE;&#x540E;&#x5411;&#x524D;&#x67E5;&#x8BE2;&#x6570;&#x7EC4;&#xFF09;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#x51CF; 1 &#xFF0C;&#x5373;&#x6574;&#x4E2A;&#x6570;&#x7EC4;&#x90FD;&#x88AB;&#x67E5;&#x627E; &#x3002;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x8FD4;&#x56DE;&#x503C;"><a name="&#x8FD4;&#x56DE;&#x503C;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x503C;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1.3. &#x8FD4;&#x56DE;&#x503C;</h2>
+<p>&#x9996;&#x4E2A;&#x88AB;&#x627E;&#x5230;&#x7684;&#x5143;&#x7D20;&#x5728;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x7D22;&#x5F15;&#xFF0C;&#x82E5;&#x6CA1;&#x6709;&#x627E;&#x5230;&#x5219;&#x8FD4;&#x56DE; -1 &#x3002;</p>
+<h2 id="&#x793A;&#x4F8B;"><a name="&#x793A;&#x4F8B;" class="anchor-navigation-ex-anchor" href="#&#x793A;&#x4F8B;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1.4. &#x793A;&#x4F8B;</h2>
+<ul>
+<li>&#x8FD4;&#x56DE;&#x9996;&#x4E2A;&#x88AB;&#x67E5;&#x627E;&#x5230;&#x7684;&#x5143;&#x7D20;&#x7684;&#x7D22;&#x5F15;</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> arr = [ <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;c&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;a&apos;</span> ];
+
+<span class="hljs-keyword">var</span> indexB = arr.lastIndexOf(<span class="hljs-string">&apos;b&apos;</span>);
+
+<span class="hljs-keyword">var</span> indexD = arr.lastIndexOf(<span class="hljs-string">&apos;d&apos;</span>);
+
+<span class="hljs-built_in">console</span>.log(indexB);  <span class="hljs-comment">//  3 </span>
+<span class="hljs-built_in">console</span>.log(indexD);  <span class="hljs-comment">//  -1</span>
+</code></pre>
+<ul>
+<li>&#x4E25;&#x683C;&#x76F8;&#x7B49;</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>];
+
+<span class="hljs-keyword">var</span> indexStr = arr.lastIndexOf(<span class="hljs-string">&apos;2&apos;</span>);
+<span class="hljs-keyword">var</span> indexNum = arr.lastIndexOf(<span class="hljs-number">2</span>);
+
+<span class="hljs-built_in">console</span>.log(indexStr);  <span class="hljs-comment">//  -1</span>
+<span class="hljs-built_in">console</span>.log(indexNum);  <span class="hljs-comment">//  1</span>
+</code></pre>
+<ul>
+<li>&#x4F7F;&#x7528; <code>fromeIndex</code> &#x53C2;&#x6570;</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> arr = [ <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;c&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;a&apos;</span> ];
+
+<span class="hljs-keyword">var</span> indexB1 = arr.lastIndexOf(<span class="hljs-string">&apos;b&apos;</span>);
+<span class="hljs-keyword">var</span> indexB2 = arr.lastIndexOf(<span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-number">2</span>);
+
+<span class="hljs-built_in">console</span>.log(indexB1);  <span class="hljs-comment">//  3 </span>
+<span class="hljs-built_in">console</span>.log(indexB2);  <span class="hljs-comment">//  1</span>
+</code></pre>
+<ul>
+<li><code>fromIndex</code> &#x4E3A;&#x8D1F;&#x503C;</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> arr = [ <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;c&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;a&apos;</span> ];
+
+<span class="hljs-keyword">var</span> index1 = arr.lastIndexOf(<span class="hljs-string">&apos;a&apos;</span>);
+
+<span class="hljs-comment">// -2 &#x8868;&#x793A;&#x4ECE;&#x5012;&#x6570;&#x7B2C;&#x4E8C;&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x67E5;&#x627E;</span>
+<span class="hljs-keyword">var</span> index2 = arr.lastIndexOf(<span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-number">-2</span>);
+
+<span class="hljs-built_in">console</span>.log(index1);  <span class="hljs-comment">//  4 </span>
+<span class="hljs-built_in">console</span>.log(index2);  <span class="hljs-comment">//  0</span>
+</code></pre>
+<ul>
+<li><code>fromIndex</code> &#x4E3A;&#x8D1F;&#x503C;&#x4E14;&#x7EDD;&#x5BF9;&#x503C;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#xFF0C;&#x8FD4;&#x56DE; -1 </li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> arr = [ <span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;c&apos;</span> ];
+
+<span class="hljs-keyword">var</span> indexA = arr.lastIndexOf(<span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-number">5</span>);
+<span class="hljs-keyword">var</span> indexB = arr.lastIndexOf(<span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-number">-5</span>);
+
+<span class="hljs-built_in">console</span>.log(indexA);  <span class="hljs-comment">//  0 </span>
+<span class="hljs-built_in">console</span>.log(indexB);  <span class="hljs-comment">//  -1</span>
+</code></pre>
+<h2 id="&#x6A21;&#x62DF;&#x5B9E;&#x73B0;"><a name="&#x6A21;&#x62DF;&#x5B9E;&#x73B0;" class="anchor-navigation-ex-anchor" href="#&#x6A21;&#x62DF;&#x5B9E;&#x73B0;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3.7.1.5. &#x6A21;&#x62DF;&#x5B9E;&#x73B0;</h2>
+<pre><code class="lang-js"><span class="hljs-built_in">Array</span>.prototype.lastIndexOf = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">searchElement, fromIndex</span>) </span>{
+    <span class="hljs-keyword">var</span> se = searchElement;
+    <span class="hljs-keyword">var</span> arr = <span class="hljs-keyword">this</span>;
+    <span class="hljs-keyword">var</span> len = arr.length;
+    <span class="hljs-keyword">var</span> fi = <span class="hljs-built_in">parseInt</span>(fromIndex) || len - <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">var</span> i = fi;
+
+    <span class="hljs-keyword">if</span> (fi &lt; <span class="hljs-number">0</span> &amp;&amp; -fi &gt;= len) <span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>
+
+    <span class="hljs-keyword">if</span> (fi &lt; <span class="hljs-number">0</span>) {
+        i = len + fi
+    }
+
+    <span class="hljs-keyword">for</span> (; i &gt;= <span class="hljs-number">0</span>; i--) {
+        <span class="hljs-keyword">if</span> (arr[i] === se) {
+            <span class="hljs-keyword">return</span> i;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>
+}
+</code></pre>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; wencaizhang 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-05-03 11:27:28
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="06-Array.indexOf.html" class="navigation navigation-prev " aria-label="Previous page: indexOf">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="08-Array.reduce.html" class="navigation navigation-next " aria-label="Next page: reduce">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"lastIndexOf","level":"1.3.7","depth":2,"next":{"title":"reduce","level":"1.3.8","depth":2,"path":"002-Array-ES5/08-Array.reduce.md","ref":"002-Array-ES5/08-Array.reduce.md","articles":[]},"previous":{"title":"indexOf","level":"1.3.6","depth":2,"path":"002-Array-ES5/06-Array.indexOf.md","ref":"002-Array-ES5/06-Array.indexOf.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","github-buttons","splitter","copy-code-button","expandable-chapters-small","-sharing","sharing-plus","edit-link","anchor-navigation-ex","tbfed-pagefooter","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy wencaizhang 2017","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/wencaizhang"},"livereload":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"github-buttons":{"buttons":[{"user":"wencaizhang","repo":"frontend-interview","type":"star","size":"small"}]},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"edit-link":{"label":"Edit This Page","base":"https://github.com/wencaizhang/frontend-interview/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"wencaizhang","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"JavaScript 核心参考手册","language":"zh-hans","links":{"sidebar":{}},"gitbook":"*","description":"JavaScript 核心参考手册"},"file":{"path":"002-Array-ES5/07-Array.lastIndexOf.md","mtime":"2018-05-03T03:27:28.197Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-03T05:33:55.076Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
