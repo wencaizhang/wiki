@@ -31,7 +31,7 @@
 	"github-buttons": {
 		"buttons": [{
 			"user": "wencaizhang",
-			"repo": "frontend-interview",
+			"repo": "js-doc",
 			"type": "star",
 			"size": "small"
 		}]
@@ -48,7 +48,7 @@
 		"tocLevel3Icon": "fa fa-hand-o-right"
 	},
 	"edit-link": {
-		"base": "https://github.com/wencaizhang/frontend-interview/edit/master",
+		"base": "https://github.com/wencaizhang/js-doc/edit/master",
 		"label": "Edit This Page"
 	},
 	"sharing": {
