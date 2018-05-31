@@ -1,5 +1,5 @@
 
-#### [首页](?file=home)
+#### [首页](?file=home-首页)
 
 ##### Array-ES3
 - [Array.concat](?file=001-Array-ES3/01-Array.concat "Array.concat")
