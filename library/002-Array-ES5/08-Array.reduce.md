@@ -26,7 +26,7 @@ fn 有 4 个参数：
 
 ## 示例
 
-+ 不指定 initialValue
+### 不指定 initialValue
 
 ```js
 var nums = [ 0, 1, 2, 3, 4 ];
@@ -47,7 +47,7 @@ console.log(sum);  // 10
 第三次 | 3 | 3 | 3 | [0, 1, 2, 3, 4] | 6
 第四次 | 6 | 4 | 4 | [0, 1, 2, 3, 4] | 10
 
-+ 指定 initialValue
+### 指定 initialValue
 
 ```js
 var nums = [ 0, 1, 2, 3, 4 ];

@@ -17,7 +17,7 @@ fromIndex | 可选。开始查找的位置，如果该索引值大于或等于�
 
 ## 示例
 
-+ 返回首个被查找到的元素的索引
+### 返回首个被查找到的元素的索引
 
 ```js
 var arr = [ 'a', 'b', 'c', 'a' ];
@@ -31,7 +31,7 @@ console.log(indexD);  //  -1
 
 ```
 
-+ 严格相等
+### 严格相等
 
 ```js
 var arr = [1, 2, 3];
@@ -43,7 +43,7 @@ console.log(indexStr);  //  -1
 console.log(indexNum);  //  1
 ```
 
-+ 使用 `fromeIndex` 参数
+### 使用 `fromeIndex` 参数
 
 ```js
 var arr = [ 'a', 'b', 'c', 'b', 'a' ];
@@ -55,7 +55,7 @@ console.log(indexB1);  //  1
 console.log(indexB2);  //  3 
 ```
 
-+ `fromIndex` 大于或等于数组长度，返回 -1 
+### `fromIndex` 大于或等于数组长度，返回 -1 
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -65,7 +65,7 @@ var index = arr.indexOf('a', 5);
 console.log(index);  // -1
 ```
 
-+ `fromIndex` 为负值
+### `fromIndex` 为负值
 
 ```js
 var arr = [ 'a', 'b', 'c' ];

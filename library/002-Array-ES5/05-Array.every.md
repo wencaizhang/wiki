@@ -22,7 +22,7 @@ fn 函数有三个参数，依次是：
 
 ## 示例
 
-+ 打印 fn 参数值
+### 打印 fn 参数值
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -36,7 +36,7 @@ arr.every(function(value, index, array) {
 //  c 2 ["a", "b", "c"]
 ```
 
-+ 如果 fn 返回 false ，则 `every()` 立即返回 false。
+### 如果 fn 返回 false ，则 `every()` 立即返回 false。
 
 ```js
 var arr = [ 'a', 'b', 'c' ];

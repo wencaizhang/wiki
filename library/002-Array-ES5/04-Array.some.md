@@ -22,7 +22,7 @@ fn 函数有三个参数，依次是：
 
 ## 示例
 
-+ 打印 fn 参数值
+### 打印 fn 参数值
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -36,7 +36,7 @@ arr.some(function(value, index, array) {
 //  c 2 ["a", "b", "c"]
 ```
 
-+ 如果 fn 返回 true ，则 `some()` 立即返回 true。
+### 如果 fn 返回 true ，则 `some()` 立即返回 true。
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -52,7 +52,7 @@ var some = arr.some(function(value, index, array) {
 console.log(some);  //  true
 ```
 
-+ fn 返回值如果不是布尔值，则会默认被转换成布尔值
+### fn 返回值如果不是布尔值，则会默认被转换成布尔值
 
 ```js
 var data = [ 0, 1, 2, 3 ];

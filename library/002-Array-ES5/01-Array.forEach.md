@@ -23,7 +23,7 @@ fn 函数支持 3 个参数，依次是：
 
 ## 示例
 
-+ 打印 fn 的参数
+### 打印 fn 的参数
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
@@ -37,7 +37,7 @@ arr.forEach(function(value, index, array) {
 //  c 2 ["a", "b", "c"]
 ```
 
-+ 指定 fn 中 this 的值
+### 指定 fn 中 this 的值
 
 ```js
 var database = {
@@ -66,7 +66,7 @@ database.users.forEach(  // database.users 中人遍历
 // 抱歉，李小璐，你不是本家
 ```
 
-+ `forEach` 不会遍历被删除的元素
+### `forEach` 不会遍历被删除的元素
 
 ```js
 var arr = [ 'a', 'b', 'c' ];
