@@ -577,5 +577,11 @@ th {
 .markdown-body pre code {
 	font-size: 120%;
 }
-
+.main-sibling {
+    display: block;
+}
+body {
+    letter-spacing: 1px;
+}
+    
 /* my custom styles end */
