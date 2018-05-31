@@ -398,122 +398,184 @@ footer .signature{position:absolute;right:20px;bottom:8px;color:#999;}
 .markdown-body code .hljs-comment,
 .markdown-body pre .hljs-title,
 .markdown-body code .hljs-title {
-	  color: #8e908c;
-  }
-  .markdown-body pre .hljs-variable,
-  .markdown-body code .hljs-variable,
-  .markdown-body pre .hljs-attribute,
-  .markdown-body code .hljs-attribute,
-  .markdown-body pre .hljs-tag,
-  .markdown-body code .hljs-tag,
-  .markdown-body pre .hljs-regexp,
-  .markdown-body code .hljs-regexp,
-  .markdown-body pre .hljs-deletion,
-  .markdown-body code .hljs-deletion,
-  .markdown-body pre .ruby .hljs-constant,
-  .markdown-body code .ruby .hljs-constant,
-  .markdown-body pre .xml .hljs-tag .hljs-title,
-  .markdown-body code .xml .hljs-tag .hljs-title,
-  .markdown-body pre .xml .hljs-pi,
-  .markdown-body code .xml .hljs-pi,
-  .markdown-body pre .xml .hljs-doctype,
-  .markdown-body code .xml .hljs-doctype,
-  .markdown-body pre .html .hljs-doctype,
-  .markdown-body code .html .hljs-doctype,
-  .markdown-body pre .css .hljs-id,
-  .markdown-body code .css .hljs-id,
-  .markdown-body pre .css .hljs-class,
-  .markdown-body code .css .hljs-class,
-  .markdown-body pre .css .hljs-pseudo,
-  .markdown-body code .css .hljs-pseudo {
-	    color: #c82829;
-    }
-    .markdown-body pre .hljs-number,
-    .markdown-body code .hljs-number,
-    .markdown-body pre .hljs-preprocessor,
-    .markdown-body code .hljs-preprocessor,
-    .markdown-body pre .hljs-pragma,
-    .markdown-body code .hljs-pragma,
-    .markdown-body pre .hljs-built_in,
-    .markdown-body code .hljs-built_in,
-    .markdown-body pre .hljs-literal,
-    .markdown-body code .hljs-literal,
-    .markdown-body pre .hljs-params,
-    .markdown-body code .hljs-params,
-    .markdown-body pre .hljs-constant,
-    .markdown-body code .hljs-constant {
-	      color: #f5871f;
-      }
-      .markdown-body pre .ruby .hljs-class .hljs-title,
-      .markdown-body code .ruby .hljs-class .hljs-title,
-      .markdown-body pre .css .hljs-rules .hljs-attribute,
-      .markdown-body code .css .hljs-rules .hljs-attribute {
-	        color: #eab700;
-	}
-	.markdown-body pre .hljs-string,
-	.markdown-body code .hljs-string,
-	.markdown-body pre .hljs-value,
-	.markdown-body code .hljs-value,
-	.markdown-body pre .hljs-inheritance,
-	.markdown-body code .hljs-inheritance,
-	.markdown-body pre .hljs-header,
-	.markdown-body code .hljs-header,
-	.markdown-body pre .hljs-addition,
-	.markdown-body code .hljs-addition,
-	.markdown-body pre .ruby .hljs-symbol,
-	.markdown-body code .ruby .hljs-symbol,
-	.markdown-body pre .xml .hljs-cdata,
-	.markdown-body code .xml .hljs-cdata {
-		  color: #718c00;
-	  }
-	  .markdown-body pre .css .hljs-hexcolor,
-	  .markdown-body code .css .hljs-hexcolor {
-		    color: #3e999f;
-	    }
-	    .markdown-body pre .hljs-function,
-	    .markdown-body code .hljs-function,
-	    .markdown-body pre .python .hljs-decorator,
-	    .markdown-body code .python .hljs-decorator,
-	    .markdown-body pre .python .hljs-title,
-	    .markdown-body code .python .hljs-title,
-	    .markdown-body pre .ruby .hljs-function .hljs-title,
-	    .markdown-body code .ruby .hljs-function .hljs-title,
-	    .markdown-body pre .ruby .hljs-title .hljs-keyword,
-	    .markdown-body code .ruby .hljs-title .hljs-keyword,
-	    .markdown-body pre .perl .hljs-sub,
-	    .markdown-body code .perl .hljs-sub,
-	    .markdown-body pre .javascript .hljs-title,
-	    .markdown-body code .javascript .hljs-title,
-	    .markdown-body pre .coffeescript .hljs-title,
-	    .markdown-body code .coffeescript .hljs-title {
-		      color: #4271ae;
-	      }
-	      .markdown-body pre .hljs-keyword,
-	      .markdown-body code .hljs-keyword,
-	      .markdown-body pre .javascript .hljs-function,
-	      .markdown-body code .javascript .hljs-function {
-		        color: #8959a8;
-		}
-		.markdown-body pre .hljs,
-		.markdown-body code .hljs {
-			  display: block;
-			    background: white;
-			      color: #4d4d4c;
-			        padding: 0.5em;
-			}
-			.markdown-body pre .coffeescript .javascript,
-			.markdown-body code .coffeescript .javascript,
-			.markdown-body pre .javascript .xml,
-			.markdown-body code .javascript .xml,
-			.markdown-body pre .tex .hljs-formula,
-			.markdown-body code .tex .hljs-formula,
-			.markdown-body pre .xml .javascript,
-			.markdown-body code .xml .javascript,
-			.markdown-body pre .xml .vbscript,
-			.markdown-body code .xml .vbscript,
-			.markdown-body pre .xml .css,
-			.markdown-body code .xml .css,
-			.markdown-body pre .xml .hljs-cdata,
-			.markdown-body code .xml .hljs-cdata {
-				  opacity: 0.5;
-			  }
+	color: #8e908c;
+}
+.markdown-body pre .hljs-variable,
+.markdown-body code .hljs-variable,
+.markdown-body pre .hljs-attribute,
+.markdown-body code .hljs-attribute,
+.markdown-body pre .hljs-tag,
+.markdown-body code .hljs-tag,
+.markdown-body pre .hljs-regexp,
+.markdown-body code .hljs-regexp,
+.markdown-body pre .hljs-deletion,
+.markdown-body code .hljs-deletion,
+.markdown-body pre .ruby .hljs-constant,
+.markdown-body code .ruby .hljs-constant,
+.markdown-body pre .xml .hljs-tag .hljs-title,
+.markdown-body code .xml .hljs-tag .hljs-title,
+.markdown-body pre .xml .hljs-pi,
+.markdown-body code .xml .hljs-pi,
+.markdown-body pre .xml .hljs-doctype,
+.markdown-body code .xml .hljs-doctype,
+.markdown-body pre .html .hljs-doctype,
+.markdown-body code .html .hljs-doctype,
+.markdown-body pre .css .hljs-id,
+.markdown-body code .css .hljs-id,
+.markdown-body pre .css .hljs-class,
+.markdown-body code .css .hljs-class,
+.markdown-body pre .css .hljs-pseudo,
+.markdown-body code .css .hljs-pseudo {
+	color: #c82829;
+}
+.markdown-body pre .hljs-number,
+.markdown-body code .hljs-number,
+.markdown-body pre .hljs-preprocessor,
+.markdown-body code .hljs-preprocessor,
+.markdown-body pre .hljs-pragma,
+.markdown-body code .hljs-pragma,
+.markdown-body pre .hljs-built_in,
+.markdown-body code .hljs-built_in,
+.markdown-body pre .hljs-literal,
+.markdown-body code .hljs-literal,
+.markdown-body pre .hljs-params,
+.markdown-body code .hljs-params,
+.markdown-body pre .hljs-constant,
+.markdown-body code .hljs-constant {
+	color: #f5871f;
+}
+.markdown-body pre .ruby .hljs-class .hljs-title,
+.markdown-body code .ruby .hljs-class .hljs-title,
+.markdown-body pre .css .hljs-rules .hljs-attribute,
+.markdown-body code .css .hljs-rules .hljs-attribute {
+	color: #eab700;
+}
+.markdown-body pre .hljs-string,
+.markdown-body code .hljs-string,
+.markdown-body pre .hljs-value,
+.markdown-body code .hljs-value,
+.markdown-body pre .hljs-inheritance,
+.markdown-body code .hljs-inheritance,
+.markdown-body pre .hljs-header,
+.markdown-body code .hljs-header,
+.markdown-body pre .hljs-addition,
+.markdown-body code .hljs-addition,
+.markdown-body pre .ruby .hljs-symbol,
+.markdown-body code .ruby .hljs-symbol,
+.markdown-body pre .xml .hljs-cdata,
+.markdown-body code .xml .hljs-cdata {
+	color: #718c00;
+}
+.markdown-body pre .css .hljs-hexcolor,
+.markdown-body code .css .hljs-hexcolor {
+	color: #3e999f;
+}
+.markdown-body pre .hljs-function,
+.markdown-body code .hljs-function,
+.markdown-body pre .python .hljs-decorator,
+.markdown-body code .python .hljs-decorator,
+.markdown-body pre .python .hljs-title,
+.markdown-body code .python .hljs-title,
+.markdown-body pre .ruby .hljs-function .hljs-title,
+.markdown-body code .ruby .hljs-function .hljs-title,
+.markdown-body pre .ruby .hljs-title .hljs-keyword,
+.markdown-body code .ruby .hljs-title .hljs-keyword,
+.markdown-body pre .perl .hljs-sub,
+.markdown-body code .perl .hljs-sub,
+.markdown-body pre .javascript .hljs-title,
+.markdown-body code .javascript .hljs-title,
+.markdown-body pre .coffeescript .hljs-title,
+.markdown-body code .coffeescript .hljs-title {
+	color: #4271ae;
+}
+.markdown-body pre .hljs-keyword,
+.markdown-body code .hljs-keyword,
+.markdown-body pre .javascript .hljs-function,
+.markdown-body code .javascript .hljs-function {
+	color: #8959a8;
+}
+.markdown-body pre .hljs,
+.markdown-body code .hljs {
+	display: block;
+	background: white;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+.markdown-body pre .coffeescript .javascript,
+.markdown-body code .coffeescript .javascript,
+.markdown-body pre .javascript .xml,
+.markdown-body code .javascript .xml,
+.markdown-body pre .tex .hljs-formula,
+.markdown-body code .tex .hljs-formula,
+.markdown-body pre .xml .javascript,
+.markdown-body code .xml .javascript,
+.markdown-body pre .xml .vbscript,
+.markdown-body code .xml .vbscript,
+.markdown-body pre .xml .css,
+.markdown-body code .xml .css,
+.markdown-body pre .xml .hljs-cdata,
+.markdown-body code .xml .hljs-cdata {
+	opacity: 0.5;
+}
+
+/* my custom styles start */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400 !important;
+}
+
+section {
+	width: 100%;
+}
+
+h1 {
+	color: #2674BA;
+}
+
+h2 {
+	color: #0099CC;
+}
+
+h3 {
+	color: #F77A0B;
+}
+
+h4 {
+	color: #662D91;
+}
+
+h5 {
+	color: #444444;
+}
+
+th {
+	background-color: #2674BA;
+	color: white;
+}
+
+.markdown-body {
+	font-size: 14px;
+}
+
+.markdown-body h1 {
+	margin-top: 50px;
+	font-size: 30px;
+	border-bottom: #d5d5d5 1px solid;
+}
+
+.markdown-body h2 {
+	margin-top: 50px;
+	font-size: 26px;
+	border-bottom: #ddd 1px solid;
+}
+
+.markdown-body pre .hljs,
+.markdown-body code .hljs {
+	background: transparent;
+}
+
+.markdown-body pre code {
+	font-size: 120%;
+}
+
+/* my custom styles end */
