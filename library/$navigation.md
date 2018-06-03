@@ -49,3 +49,5 @@
 
 ##### Object
 - [hasOwnProperty](?file=006-Object/001-hasOwnProperty "hasOwnProperty")
+- [Object.keys](?file=006-Object/02-Object.keys "Object.keys")
+- [Object.values](?file=006-Object/03-Object.values "Object.values")
