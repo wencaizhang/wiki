@@ -93,11 +93,11 @@ var users = [
     { name: '王五', age: 21 }
 ];
 
-var ages = users.map(function (user) {
+var names = users.map(function (user) {
     return user.name;
 });
 
-console.log(ages.join('，'));  // 张三，李四，王五
+console.log(names.join('，'));  // 张三，李四，王五
 ```
 
 ## 模拟实现
