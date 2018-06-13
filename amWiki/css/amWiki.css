@@ -568,7 +568,9 @@ th {
 	font-size: 26px;
 	border-bottom: #ddd 1px solid;
 }
-
+.markdown-body h3 {
+	font-size: 1.2em;
+}
 .markdown-body pre .hljs,
 .markdown-body code .hljs {
 	background: transparent;
