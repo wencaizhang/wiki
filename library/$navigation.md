@@ -48,6 +48,7 @@
 - [regexp-demos](?file=05-Regexp/04-regexp-demos "regexp-demos")
 
 ##### Object
-- [hasOwnProperty](?file=06-Object/001-hasOwnProperty "hasOwnProperty")
+- [hasOwnProperty](?file=06-Object/01-hasOwnProperty "hasOwnProperty")
 - [Object.keys](?file=06-Object/02-Object.keys "Object.keys")
 - [Object.values](?file=06-Object/03-Object.values "Object.values")
+- [Object.entries](?file=06-Object/04-Object.entries "Object.entries")
