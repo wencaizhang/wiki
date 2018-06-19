@@ -17,14 +17,31 @@ obj | Object 类型，必需。要处理的对象
 
 ## 示例
 
-### 判断自身属性 prop 是否存在
+### 1. 普通对象
 
 ```js
-var obj = {
-    name: 'jack',
-    age: 22,
-    sex: 'man'
-}
+var obj = { foo: 'bar', boo: 123 };
+console.log( Object.values(obj) ); // [ 'bar', 123 ]
+```
 
-Object.values(obj);  // ["jack", 22, "man"]
+### 2. 类数组对象
+
+```js
+var obj = { 0: 'a', 1: 'b', 2: 'c' };
+console.log( Object.values(obj) );  // [ 'a', 'b', 'c' ]
+```
+
+### 3. 随机索引的类数组对象
+
+```js
+var obj = { 100: 'a', 2: 'b', 7: 'c' };
+console.log( Object.values(obj) );  // [ 'b', 'c', 'a' ]
+```
+
+### 4. 
+
+### 5. 异常
+
+```js
+Object.values( 'foo' );  // [ 'f', 'o', 'o' ] 
 ```
