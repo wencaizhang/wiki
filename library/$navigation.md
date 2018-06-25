@@ -41,14 +41,14 @@
 - [String.toLowerCase](?file=04-String/001-String.toLowerCase "String.toLowerCase")
 - [String.toUpperCase](?file=04-String/002-String.toUpperCase "String.toUpperCase")
 
-##### Regexp
-- [Regexp](?file=05-Regexp/01-Regexp "Regexp")
-- [Regexp.test](?file=05-Regexp/02-Regexp.test "Regexp.test")
-- [Regexp.exec](?file=05-Regexp/03-Regexp.exec "Regexp.exec")
-- [regexp-demos](?file=05-Regexp/04-regexp-demos "regexp-demos")
-
 ##### Object
-- [hasOwnProperty](?file=06-Object/01-hasOwnProperty "hasOwnProperty")
-- [Object.keys](?file=06-Object/02-Object.keys "Object.keys")
-- [Object.values](?file=06-Object/03-Object.values "Object.values")
-- [Object.entries](?file=06-Object/04-Object.entries "Object.entries")
+- [hasOwnProperty](?file=05-Object/01-hasOwnProperty "hasOwnProperty")
+- [Object.keys](?file=05-Object/02-Object.keys "Object.keys")
+- [Object.values](?file=05-Object/03-Object.values "Object.values")
+- [Object.entries](?file=05-Object/04-Object.entries "Object.entries")
+
+##### Regexp
+- [Regexp](?file=06-Regexp/01-Regexp "Regexp")
+- [Regexp.test](?file=06-Regexp/02-Regexp.test "Regexp.test")
+- [Regexp.exec](?file=06-Regexp/03-Regexp.exec "Regexp.exec")
+- [regexp-demos](?file=06-Regexp/04-regexp-demos "regexp-demos")

@@ -2,7 +2,7 @@
 
 ## 描述
 
-检测字符是否含有与 regexp 相匹配的文本。
+检测字符串中是否含有与 regexp 相匹配的文本。
 
 ## 参数
 
@@ -23,3 +23,11 @@ reg.test('javascript');  // 返回 true
 
 reg.test('ECMAScript');  // 返回 false
 ```
+
+```js
+var reg = /java$/i;
+
+reg.test('javascript');  // false
+```
+
+

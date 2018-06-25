@@ -1,6 +1,23 @@
+[TOC]
 # 正则表达式
 
 >正则表达式验证工具： https://regexper.com/
+
+## 创建正则表达式
+
+### 构造函数
+
+```js
+var reg1 = new RegExp('a');
+var reg2 = new RegExp('[a-zA-Z]', 'gi');
+var reg3 = new RegExp(/[a-zA-Z]/, 'gi');
+```
+
+### 字面量
+
+```js
+var reg = /[a-zA-Z]/gi;
+```
 
 ## 修饰符
 
