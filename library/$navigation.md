@@ -46,6 +46,8 @@
 - [Object.keys](?file=05-Object/02-Object.keys "Object.keys")
 - [Object.values](?file=05-Object/03-Object.values "Object.values")
 - [Object.entries](?file=05-Object/04-Object.entries "Object.entries")
+- [Object.assign](?file=05-Object/05-Object.assign "Object.assign")
+- [Object.is](?file=05-Object/06-Object.is "Object.is")
 
 ##### Regexp
 - [正则表达式预查](?file=06-Regexp/0-正则表达式预查 "正则表达式预查")
@@ -56,4 +58,5 @@
 - [String.prototype.search](?file=06-Regexp/04-String.prototype.search "String.prototype.search")
 - [String.prototype.match](?file=06-Regexp/05-String.prototype.match "String.prototype.match")
 - [String.prototype.replace](?file=06-Regexp/06-String.prototype.replace "String.prototype.replace")
+- [String.prototype.split](?file=06-Regexp/07-String.prototype.split "String.prototype.split")
 - [regexp-demos](?file=06-Regexp/100-regexp-demos "regexp-demos")
