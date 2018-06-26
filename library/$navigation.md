@@ -48,7 +48,12 @@
 - [Object.entries](?file=05-Object/04-Object.entries "Object.entries")
 
 ##### Regexp
-- [Regexp](?file=06-Regexp/01-Regexp "Regexp")
+- [正则表达式预查](?file=06-Regexp/0-正则表达式预查 "正则表达式预查")
+- [Regexp](?file=06-Regexp/00-Regexp "Regexp")
+- [Regexp.lastIndex](?file=06-Regexp/01-Regexp.lastIndex "Regexp.lastIndex")
 - [Regexp.test](?file=06-Regexp/02-Regexp.test "Regexp.test")
 - [Regexp.exec](?file=06-Regexp/03-Regexp.exec "Regexp.exec")
-- [regexp-demos](?file=06-Regexp/04-regexp-demos "regexp-demos")
+- [String.prototype.search](?file=06-Regexp/04-String.prototype.search "String.prototype.search")
+- [String.prototype.match](?file=06-Regexp/05-String.prototype.match "String.prototype.match")
+- [String.prototype.replace](?file=06-Regexp/06-String.prototype.replace "String.prototype.replace")
+- [regexp-demos](?file=06-Regexp/100-regexp-demos "regexp-demos")

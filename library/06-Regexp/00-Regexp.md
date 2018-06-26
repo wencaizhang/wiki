@@ -26,6 +26,69 @@ var reg = /[a-zA-Z]/gi;
 `i` | 执行对大小写不敏感的匹配
 `g` | 执行全局匹配（查找所有匹配，而非在找到第一个匹配后停止）
 `m` | 执行多行匹配
+`s` | 执行单行匹配
+
+## 正则对象属性
+
+> 属性均为只读，无法设置其值
+
+| 属性        |  含义                 | 默认值 |
+| ---         | ---                  | --- |
+| `global`    | 是否全文搜索          | `false` |
+| `ignoreCase` | 是否大小写敏感        | `false` |
+| `multiline` | 多行搜索              | `false` |
+| `lastIndex` | 是当前表达式匹配内容的最后一个字符的下一个位置| 无 |
+| `source`    | 正则表达式的文本字符串  | 无 |
+
+示例：
+
+```js
+var reg1 = /\w/;
+var reg2 = /\w/gim;
+
+console.log(reg1.global);        // false
+console.log(reg1.ignoreCase);    // false
+console.log(reg1.multiline);     // false
+console.log(reg1.source);        // "\w"
+
+console.log(reg2.global);        // true
+console.log(reg2.ignoreCase);    // true
+console.log(reg2.multiline);     // true
+console.log(reg2.source);        // "\w"
+```
+
+## 方括号
+
+| 表达式    | 描述 |
+| ---       | --- |
+| [abc] | 匹配方括号之间的任何字符 |
+| [^abc] | 匹配任何不在方括号之间的字符 |
+| [0-9] | 匹配任何从 0 至 9 的数字 |
+| [a-z] | 匹配任何从小写 a 到小写 z 的字符 |
+| [A-Z] | 匹配任何从大写 A 到大写 Z 的字符 |
+| [A-z] | 	匹配任何从大写 A 到小写 z 的字符 |
+| [adgk] | 匹配给定集合内的任何字符 |
+| [^adgk] | 匹配给定集合外的任何字符 |
+| (red|blue|green) | 	匹配任何指定的选项 |
+
+## 子表达式
+
+用括号括起来的正则表达式。例如：
+
+```js
+var str = 'hello world';
+var reg = /(\w*)\s*(\w*)/;
+var ans = str.replace(reg, '$2 $1')
+console.log(ans); // world hello
+```
+
+如 `/(\w*)\s*(\w*)/` 中，第一个括号 `(\w*)` 匹配到的字符串（本例中是 `hello`），记为 `$1`，第二个括号 `(\w*)` 匹配到的字符串（本例中是 `world`），记为 `$2`。
+
+简单地说：从左到右，以分组的左括号为标志，第一个出现的分组的序号为 1，第二个为 2，以此类推。
+
+复杂地说：分组 0 对应整个正则表达式实际上组号分配过程是要从左向右扫描两遍的：第一遍只给未命名组分配，第二遍只给命名组分配－－因此所有命名组的组号都大于未命名的组号。可以使用 `(?:exp)` 这样的语法来剥夺一个分组对组号分配的参与权。
+
+参考：[我所认识的javascript正则表达式](https://www.cnblogs.com/zichi/p/4343009.html)
 
 ## 元字符
 
@@ -65,35 +128,6 @@ var reg = /[a-zA-Z]/gi;
 | `+`     | 匹配至少 1 个元字符，相当于 `{1,}`   |
 | `^`     | 字符串必须以指定的字符开始           |
 | `$`     | 字符串必须以指定的字符结束           |
-
-## 正则对象属性
-
-> 属性均为只读，无法设置其值
-
-| 属性        |  含义                 | 默认值 |
-| ---         | ---                  | --- |
-| `global`    | 是否全文搜索          | `false` |
-| `ignoreCase` | 是否大小写敏感        | `false` |
-| `multiline` | 多行搜索              | `false` |
-| `lastIndex` | 是当前表达式匹配内容的最后一个字符的下一个位置| 无 |
-| `source`    | 正则表达式的文本字符串  | 无 |
-
-示例：
-
-```js
-var reg1 = /\w/;
-var reg2 = /\w/gim;
-
-console.log(reg1.global);        // false
-console.log(reg1.ignoreCase);    // false
-console.log(reg1.multiline);     // false
-console.log(reg1.source);        // "\w"
-
-console.log(reg2.global);        // true
-console.log(reg2.ignoreCase);    // true
-console.log(reg2.multiline);     // true
-console.log(reg2.source);        // "\w"
-```
 
 ## 其他
 1. 由于在正则表达式中`\`、`?`、`*`、`^`、`$`、`+`、`(`、`)`、`|`、`{`、`[`等字符已经具有一定特殊意义，如果需要用它们的原始意义，则应该对它进行转义，例如希望在字符串中至少有一个“ \ ”，那么正则表达式应该这么写： \\+ 。
