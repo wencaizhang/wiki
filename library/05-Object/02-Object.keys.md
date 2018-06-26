@@ -17,6 +17,18 @@ obj | Object 类型，必需。要处理的对象
 
 ## 示例
 
+### 0. 基本使用
+
+```js
+var arr = {
+    name: 'jack',
+    age: 20,
+    sex: 'man'
+};
+
+var keys = Object.keys(arr);  // ["name", "age", "sex"] 
+```
+
 ### 1. 简单数组
 
 ```js
