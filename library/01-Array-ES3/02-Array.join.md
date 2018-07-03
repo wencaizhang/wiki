@@ -44,13 +44,28 @@ var arr = [ 1, 2, { name: 'zwc' } ];
 arr.join(); // "1,2,[object Object]"
 ```
 
+### （4）小结
+
+实际上 `join()` 方法是对数组中每一项元素都进行了 `toString()` 操作转换成字符串之后进行的拼接。
+
+`undefined` 和 `null` 执行 `toString()` 则会报错，因此将其转化为空字符串
+
+```js
+({ type: 'object' }).toString();  // "[object Object]"
+
+([ 3, 4 ]).toString();  // "3,4"
+
+(true).toString();  // "true"
+
+(function () { console.log('hello') }).toString();  //  "function () { console.log('hello') }"
+```
+
 ## 模拟实现
 
 ```js
 /*
-*  模拟原生 Array.concat()
+*  模拟原生 Array.join()
 */
-
 Array.prototype.join = function () {
 
     var sep = arguments && arguments[0] || ',';
@@ -59,19 +74,9 @@ Array.prototype.join = function () {
     for ( var i = 0; i < this.length; i++ ) {
         var item = this[i];
 
-        item === undefined ? '' : item;
-        item === null ? '' : item;
+        item === undefined || null ? '' : item;
 
-        if ( item instanceof Array ) {
-            for( var j = 0; j < item.length; j++ ) {
-                var s = j === 0 ? sep : ','
-                str += s + item[j]; 
-            }
-        } else if ( item instanceof Object ) {
-            str += sep + item.toString();
-        } else {
-            str += sep + item; 
-        }
+        str += sep + item.toString();
     }
     return str.replace(sep, '');
 }
