@@ -576,6 +576,10 @@ th {
 	background: transparent;
 }
 
+.markdown-body h1 code {
+
+	color: #fff;
+}
 .markdown-body code, .markdown-body tt {
 	background-color: lightpink;
 }
