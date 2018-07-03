@@ -18,5 +18,7 @@
 var arr = [ 1, 2, 3 ];
 
 var delEle = arr.shift();   // 1 
+
+[].shift();  // undefined
 ```
 
