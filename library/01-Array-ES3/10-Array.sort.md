@@ -20,7 +20,8 @@ compareFunction | function 类型，可选。用来指定按某种顺序进行�
 
 ## 示例
 
-+ 给元素都为数字的数组排序，不指定排序方法
+### 一维数组排序
++ 不指定排序方法
 
 ```js
 var scores = [1, 10, 21, 2];
@@ -29,7 +30,7 @@ console.log(scores);  // [ 1, 10, 2, 21 ]
 // 10 在 2 之前，这是因为在 Unicode 指针顺序中"10"在"2"之前
 ```
 
-+ 给元素都为数字的数组排序，指定排序方法
++ 升序
 
 ```js
 var numbers = [4, 2, 5, 1, 3];
@@ -42,3 +43,95 @@ console.log(numbers);  // [ 1, 2, 3, 4, 5 ]
 
 ```
 
++ 降序
+
+```js
+var numbers = [4, 2, 5, 1, 3];
+
+numbers.sort(function(a, b) {
+  return b - a;
+});
+
+console.log(numbers);  // [ 1, 2, 3, 4, 5 ]
+
+```
+
+### 二维数组排序
+
+数组元素为对象，按照对象某个属性对其排序
+
+按照 `sortNo` 属性从小到大排序：
+```js
+var arr= [ 
+  { 'sortNo': 2},
+  { 'sortNo': 1},
+  { 'sortNo': 5},
+  { 'sortNo': 6},
+  { 'sortNo': 7},
+  { 'sortNo': 3},
+  { 'sortNo': 9},
+  { 'sortNo': 4},
+  { 'sortNo': 0}
+];
+
+arr.sort(function(a, b){
+  return a.sortNo - b.sortNo;
+});
+
+console.log(arr);
+//输出结果
+//{ 'sortNo': 0}
+//{ 'sortNo': 1}
+//{ 'sortNo': 2}
+//{ 'sortNo': 3}
+//{ 'sortNo': 4}
+//{ 'sortNo': 5}
+//{ 'sortNo': 6}
+//{ 'sortNo': 7}
+//{ 'sortNo': 9}
+```
+
+多条件排序
+
+按照 `sortNo` 属性从小到大排序，如果 `sortNo` 相同，则按照 `sortNo2` 从大到小排序：
+
+```js
+var arr= [ 
+  { 'sortNo': 2, 'sortNo2': 3},
+  { 'sortNo': 1, 'sortNo2': 3},
+  { 'sortNo': 5, 'sortNo2': 3},
+  { 'sortNo': 6, 'sortNo2': 3},
+  { 'sortNo': 7, 'sortNo2': 3},
+  { 'sortNo': 3, 'sortNo2': 4},
+  { 'sortNo': 3, 'sortNo2': 2},
+  { 'sortNo': 3, 'sortNo2': 1},
+  { 'sortNo': 3, 'sortNo2': 3},
+  { 'sortNo': 8, 'sortNo2': 3},
+  { 'sortNo': 4, 'sortNo2': 1},
+  { 'sortNo': 4, 'sortNo2': 2}
+];
+
+arr.sort(function( a, b ) {
+  if (a.sortNo == b.sortNo) {
+    return b.sortNo2 - a.sortNo2;
+  }
+  return a.sortNo - b.sortNo
+});
+
+console.log(arr);
+// [
+//  {sortNo: 1, sortNo2: 3}
+//  {sortNo: 2, sortNo2: 3}
+//  {sortNo: 3, sortNo2: 4}
+//  {sortNo: 3, sortNo2: 3}
+//  {sortNo: 3, sortNo2: 2}
+//  {sortNo: 3, sortNo2: 1}
+//  {sortNo: 4, sortNo2: 2}
+//  {sortNo: 4, sortNo2: 1}
+//  {sortNo: 5, sortNo2: 3}
+//  {sortNo: 6, sortNo2: 3}
+//  {sortNo: 7, sortNo2: 3}
+//  {sortNo: 8, sortNo2: 3}
+// ]
+
+```
