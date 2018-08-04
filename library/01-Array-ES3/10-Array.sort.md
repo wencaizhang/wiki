@@ -60,7 +60,7 @@ console.log(numbers);  // [ 1, 2, 3, 4, 5 ]
 
 数组元素为对象，按照对象某个属性对其排序
 
-按照 `sortNo` 属性从小到大排序：
+#### 按照 `sortNo` 属性从小到大排序：
 ```js
 var arr= [ 
   { 'sortNo': 2},
@@ -91,7 +91,7 @@ console.log(arr);
 //{ 'sortNo': 9}
 ```
 
-多条件排序
+#### 多条件排序
 
 按照 `sortNo` 属性从小到大排序，如果 `sortNo` 相同，则按照 `sortNo2` 从大到小排序：
 
