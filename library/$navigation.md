@@ -48,6 +48,7 @@
 - [Object.entries](?file=05-Object/04-Object.entries "Object.entries")
 - [Object.assign](?file=05-Object/05-Object.assign "Object.assign")
 - [Object.is](?file=05-Object/06-Object.is "Object.is")
+- [Object.defineProperty](?file=05-Object/07-Object.defineProperty "Object.defineProperty")
 
 ##### Regexp
 - [正则表达式预查](?file=06-Regexp/0-正则表达式预查 "正则表达式预查")
