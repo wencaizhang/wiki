@@ -5,10 +5,10 @@
 **JavaScript 速查手册！**
 
 此文档为本人复习 JavaScript 基础知识时所整理，文档内容来自以下网站以及个人的理解：
-+ [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-+ [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
-+ [JavaScript 高级程序设计](https://book.douban.com/subject/10546125/)
++ [JavaScript · MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 + [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
++ [JavaScript 高级程序设计](https://book.douban.com/subject/10546125/)
++ [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
 
 ## Contributing
 
@@ -18,10 +18,10 @@
 
 ## 地址
 
-文档地址：http://wencaizhang.com/oh-my-js/
+文档地址：[http://wencaizhang.com/oh-my-js/](http://wencaizhang.com/oh-my-js/)
 
-备用地址：https://wencaizhang.github.io/oh-my-js/
+备用地址：[https://wencaizhang.github.io/oh-my-js/](https://wencaizhang.github.io/oh-my-js/)
 
 ## End
 
-Just for fun!
+Just for fun! :stuck_out_tongue_closed_eyes:
