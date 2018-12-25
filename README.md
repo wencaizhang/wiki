@@ -20,6 +20,9 @@ yarn
 ```
 
 ## 编译与部署
+
+```
 npm run build    # 本地编译
 npm run dev      # 本地编译并启动测试服务器
 gulp             # 压缩静态文件
+```
