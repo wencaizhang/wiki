@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/fun/such-a-cuty-coach/</loc>
+    
+    <lastmod>2018-12-25T14:40:43.918Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/launch-a-node-server-via-anywhere/</loc>
     
     <lastmod>2018-12-25T14:31:10.234Z</lastmod>
@@ -44,13 +51,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/categories/index.html</loc>
-    
-    <lastmod>2018-12-25T13:05:43.217Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/about/index.html</loc>
     
     <lastmod>2018-12-25T13:05:43.217Z</lastmod>
@@ -58,14 +58,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/02-%E5%AE%9E%E7%94%A8tips/01-%E8%AE%BE%E7%BD%AEalias/</loc>
+    <loc>https://wencaizhang.gitee.io/categories/index.html</loc>
+    
+    <lastmod>2018-12-25T13:05:43.217Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/02-%E5%AE%9E%E7%94%A8tips/02-%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
     
     <lastmod>2018-12-25T13:05:43.216Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/02-%E5%AE%9E%E7%94%A8tips/02-%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/02-%E5%AE%9E%E7%94%A8tips/01-%E8%AE%BE%E7%BD%AEalias/</loc>
     
     <lastmod>2018-12-25T13:05:43.216Z</lastmod>
     
@@ -86,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/01-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02-%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/01-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04-%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
     
     <lastmod>2018-12-25T13:05:43.214Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/01-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/04-%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-linux/01-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/02-%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/</loc>
     
     <lastmod>2018-12-25T13:05:43.214Z</lastmod>
     
@@ -135,13 +142,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/05-String.prototype.match/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.211Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/06-String.prototype.replace/</loc>
     
     <lastmod>2018-12-25T13:05:43.211Z</lastmod>
@@ -150,6 +150,13 @@
   
   <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/04-String.prototype.search/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.211Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/05-String.prototype.match/</loc>
     
     <lastmod>2018-12-25T13:05:43.211Z</lastmod>
     
@@ -177,14 +184,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/00-Regexp/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/0-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%A2%84%E6%9F%A5/</loc>
     
     <lastmod>2018-12-25T13:05:43.209Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/0-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%A2%84%E6%9F%A5/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/06-Regexp/00-Regexp/</loc>
     
     <lastmod>2018-12-25T13:05:43.209Z</lastmod>
     
@@ -205,13 +212,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/05-Object/04-Object.entries/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.207Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/05-Object/03-Object.values/</loc>
     
     <lastmod>2018-12-25T13:05:43.207Z</lastmod>
@@ -220,6 +220,13 @@
   
   <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/05-Object/05-Object.assign/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.207Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/05-Object/04-Object.entries/</loc>
     
     <lastmod>2018-12-25T13:05:43.207Z</lastmod>
     
@@ -261,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/09-Array.values/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/08-Array.keys/</loc>
     
     <lastmod>2018-12-25T13:05:43.203Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/08-Array.keys/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/09-Array.values/</loc>
     
     <lastmod>2018-12-25T13:05:43.203Z</lastmod>
     
@@ -296,7 +303,7 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/01-Array.from/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/04-Array.find/</loc>
     
     <lastmod>2018-12-25T13:05:43.201Z</lastmod>
     
@@ -310,14 +317,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/04-Array.find/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/10-Array.isArray/</loc>
     
     <lastmod>2018-12-25T13:05:43.201Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/10-Array.isArray/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/03-Array-ES6/01-Array.from/</loc>
     
     <lastmod>2018-12-25T13:05:43.201Z</lastmod>
     
@@ -331,13 +338,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/08-Array.reduce/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.200Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/09-Array.reduceRight/</loc>
     
     <lastmod>2018-12-25T13:05:43.200Z</lastmod>
@@ -345,9 +345,9 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/07-Array.lastIndexOf/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/08-Array.reduce/</loc>
     
-    <lastmod>2018-12-25T13:05:43.199Z</lastmod>
+    <lastmod>2018-12-25T13:05:43.200Z</lastmod>
     
   </url>
   
@@ -359,9 +359,9 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/04-Array.some/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/07-Array.lastIndexOf/</loc>
     
-    <lastmod>2018-12-25T13:05:43.198Z</lastmod>
+    <lastmod>2018-12-25T13:05:43.199Z</lastmod>
     
   </url>
   
@@ -373,9 +373,9 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/02-Array.map/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/04-Array.some/</loc>
     
-    <lastmod>2018-12-25T13:05:43.197Z</lastmod>
+    <lastmod>2018-12-25T13:05:43.198Z</lastmod>
     
   </url>
   
@@ -387,14 +387,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/01-Array.forEach/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/02-Array.map/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.197Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/10-Array.sort/</loc>
     
     <lastmod>2018-12-25T13:05:43.196Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/10-Array.sort/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/02-Array-ES5/01-Array.forEach/</loc>
     
     <lastmod>2018-12-25T13:05:43.196Z</lastmod>
     
@@ -408,14 +415,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/08-Array.splice/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/07-Array.slice/</loc>
     
     <lastmod>2018-12-25T13:05:43.195Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/07-Array.slice/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/08-Array.splice/</loc>
     
     <lastmod>2018-12-25T13:05:43.195Z</lastmod>
     
@@ -429,7 +436,7 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/04-Array.pop/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/05-Array.shift/</loc>
     
     <lastmod>2018-12-25T13:05:43.193Z</lastmod>
     
@@ -443,21 +450,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/05-Array.shift/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/04-Array.pop/</loc>
     
     <lastmod>2018-12-25T13:05:43.193Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/02-Array.join/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/01-Array.concat/</loc>
     
     <lastmod>2018-12-25T13:05:43.192Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/01-Array.concat/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-js/01-Array-ES3/02-Array.join/</loc>
     
     <lastmod>2018-12-25T13:05:43.192Z</lastmod>
     
@@ -478,6 +485,13 @@
   </url>
   
   <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/02-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/02-git%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.190Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/02-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/03-%E5%B7%A5%E4%BD%9C%E8%BF%9B%E8%A1%8C%E4%B8%80%E5%8D%8A%E9%9C%80%E5%88%87%E6%8D%A2%E5%88%B0%E5%8F%A6%E4%B8%80%E5%88%86%E6%94%AF/</loc>
     
     <lastmod>2018-12-25T13:05:43.190Z</lastmod>
@@ -486,13 +500,6 @@
   
   <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/02-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/04-%E4%BF%AE%E6%94%B9commit%E4%BF%A1%E6%81%AF/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.190Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/02-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/02-git%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
     
     <lastmod>2018-12-25T13:05:43.190Z</lastmod>
     
@@ -513,13 +520,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/06-%E6%9F%A5%E7%9C%8B%E4%BF%AE%E6%94%B9%E5%92%8C%E6%92%A4%E9%94%80%E4%BF%AE%E6%94%B9/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.188Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/05-%E6%A0%87%E7%AD%BE/</loc>
     
     <lastmod>2018-12-25T13:05:43.188Z</lastmod>
@@ -527,9 +527,9 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/02-%E8%AE%B0%E4%BD%8F%E5%AF%86%E7%A0%81/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/06-%E6%9F%A5%E7%9C%8B%E4%BF%AE%E6%94%B9%E5%92%8C%E6%92%A4%E9%94%80%E4%BF%AE%E6%94%B9/</loc>
     
-    <lastmod>2018-12-25T13:05:43.187Z</lastmod>
+    <lastmod>2018-12-25T13:05:43.188Z</lastmod>
     
   </url>
   
@@ -548,9 +548,9 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/00-%E8%8E%B7%E5%8F%96%E4%BB%A3%E7%A0%81/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/02-%E8%AE%B0%E4%BD%8F%E5%AF%86%E7%A0%81/</loc>
     
-    <lastmod>2018-12-25T13:05:43.186Z</lastmod>
+    <lastmod>2018-12-25T13:05:43.187Z</lastmod>
     
   </url>
   
@@ -562,14 +562,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%88%97%E8%A1%A8%E9%A1%B5%E7%9A%84%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-git/01-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/00-%E8%8E%B7%E5%8F%96%E4%BB%A3%E7%A0%81/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.186Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E5%8F%82%E6%96%B9%E6%A1%88/</loc>
     
     <lastmod>2018-12-25T13:05:43.185Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BC%A0%E5%8F%82%E6%96%B9%E6%A1%88/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%88%97%E8%A1%A8%E9%A1%B5%E7%9A%84%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0/</loc>
     
     <lastmod>2018-12-25T13:05:43.185Z</lastmod>
     
@@ -611,13 +618,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/react-event/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.175Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/react-stop-propagation/</loc>
     
     <lastmod>2018-12-25T13:05:43.175Z</lastmod>
@@ -625,14 +625,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/gulp-debug/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/react-event/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.175Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/micro-code/</loc>
     
     <lastmod>2018-12-25T13:05:43.174Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/micro-code/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/gulp-debug/</loc>
     
     <lastmod>2018-12-25T13:05:43.174Z</lastmod>
     
@@ -646,14 +653,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/JavaScript-continuous-assignment-operator/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/other/GitHub-Pages/</loc>
     
     <lastmod>2018-12-25T13:05:43.173Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/other/GitHub-Pages/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/todoxxx/JavaScript-continuous-assignment-operator/</loc>
     
     <lastmod>2018-12-25T13:05:43.173Z</lastmod>
     
@@ -667,13 +674,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/toggle-title-on-focus-and-blur/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.171Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/the-difference-of-get-and-post-method/</loc>
     
     <lastmod>2018-12-25T13:05:43.171Z</lastmod>
@@ -681,14 +681,21 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/some-function-of-jquery/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/toggle-title-on-focus-and-blur/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.171Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/remember-password-by-localStorage/</loc>
     
     <lastmod>2018-12-25T13:05:43.170Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/remember-password-by-localStorage/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/some-function-of-jquery/</loc>
     
     <lastmod>2018-12-25T13:05:43.170Z</lastmod>
     
@@ -709,20 +716,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/old/function-trim/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.168Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/old/react-event/</loc>
-    
-    <lastmod>2018-12-25T13:05:43.168Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/object-clone-of-javascript/</loc>
     
     <lastmod>2018-12-25T13:05:43.168Z</lastmod>
@@ -737,14 +730,28 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/2018-10/array-find/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/old/function-trim/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.168Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/old/react-event/</loc>
+    
+    <lastmod>2018-12-25T13:05:43.168Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/2018-10/difference-of-let-and-const/</loc>
     
     <lastmod>2018-12-25T13:05:43.167Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/2018-10/difference-of-let-and-const/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/js/2018-10/array-find/</loc>
     
     <lastmod>2018-12-25T13:05:43.167Z</lastmod>
     
@@ -800,7 +807,7 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/tool/awesome-tools/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/05-webpack%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BF%E9%97%AE%E6%97%B6%E6%8F%90%E7%A4%BA%EF%BC%9AInvalid%20Host%20header/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
@@ -814,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/02-%E8%AE%BE%E7%BD%AE%E7%BD%91%E9%A1%B5title/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/tool/vscode%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E6%AE%B5/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
@@ -828,13 +835,6 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/05-webpack%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BF%E9%97%AE%E6%97%B6%E6%8F%90%E7%A4%BA%EF%BC%9AInvalid%20Host%20header/</loc>
-    
-    <lastmod>2017-12-30T02:20:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/05-vue%E5%85%A8%E5%B1%80%E5%85%AC%E7%94%A8%E5%87%BD%E6%95%B0/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
@@ -842,14 +842,14 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/tool/vscode%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E6%AE%B5/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/04-vuex%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/07-axios%20%E5%B0%81%E8%A3%85/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/tool/awesome-tools/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
@@ -857,6 +857,13 @@
   
   <url>
     <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/06-Vue%E7%82%B9%E5%87%BBbutton%E4%BD%BFinput%E8%8E%B7%E5%8F%96%E7%84%A6%E7%82%B9/</loc>
+    
+    <lastmod>2017-12-30T02:20:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/07-axios%20%E5%B0%81%E8%A3%85/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
@@ -891,7 +898,7 @@
   </url>
   
   <url>
-    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/04-vuex%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://wencaizhang.gitee.io/wiki/oh-my-article/vue/02-%E8%AE%BE%E7%BD%AE%E7%BD%91%E9%A1%B5title/</loc>
     
     <lastmod>2017-12-30T02:20:33.000Z</lastmod>
     
