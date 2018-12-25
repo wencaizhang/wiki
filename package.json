@@ -7,7 +7,9 @@
   },
   "scripts": {
     "dev": "hexo g && hexo s",
-    "build": "hexo clean && hexo g"
+    "build": "hexo clean && hexo g",
+    "push": "git add public && git commit -m :package: && git push",
+    "deploy": "npm run build && gulp && npm run push"
   },
   "dependencies": {
     "hexo": "^3.7.0",

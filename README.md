@@ -25,4 +25,6 @@ yarn
 npm run build    # 本地编译
 npm run dev      # 本地编译并启动测试服务器
 gulp             # 压缩静态文件
+npm run push     # 提交 public 目录到 master 分支
+npm run deploy   # 先编译，后压缩，最后再提交到 master 分支
 ```
