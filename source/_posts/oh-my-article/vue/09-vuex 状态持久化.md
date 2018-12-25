@@ -1,4 +1,11 @@
-## vuex 状态持久化（本地化）—— `vuex-persistedstate`
+---
+title: vuex 状态持久化之vuex-persistedstate
+tags:
+  - vue
+  - storage
+date: 2017-11-24 20:20:53
+updated: 2017-12-30 10:20:33
+---
 
 ### 安装
 

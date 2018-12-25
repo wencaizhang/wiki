@@ -1,3 +1,11 @@
+---
+title: vue 项目中操作 dom
+tags:
+  - vue
+date: 2017-11-24 20:20:53
+updated: 2017-12-30 10:20:33
+---
+
 在某些时候我们希望点击一个按钮可以让输入框获取焦点，但是 Vue 中不建议直接操作 DOM 元素，这时候可以利用 Vue 提供的 `ref` 属性来实现。
 
 > [vue-refs](https://cn.vuejs.org/v2/api/#vm-refs): 一个对象，持有注册过 ref 特性 的所有 DOM 元素和组件实例。
