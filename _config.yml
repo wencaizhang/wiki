@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Oh-My-JS
+title: Oh-My-Wiki
 subtitle:
 description:
 keywords:
@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wencaizhang.gitee.io
-root: /oh-my-js
+root: /wiki
 # permalink: :year/:month/:day/:title/
 permalink: wiki/:title/
 permalink_defaults:
