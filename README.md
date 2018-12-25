@@ -1,4 +1,4 @@
-#《Oh-My-Wiki》
+# 《Oh-My-Wiki》
 
 本博客遵循MIT开源协议。
 
