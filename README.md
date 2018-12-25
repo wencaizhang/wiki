@@ -1,27 +1,25 @@
-# JavaScript 核心参考手册 
+#《Oh-My-Wiki》
 
-## What is this
+本博客遵循MIT开源协议。
 
-**JavaScript 速查手册！**
+## 如何组建出我的博客
 
-此文档为本人复习 JavaScript 基础知识时所整理，文档内容来自以下网站以及个人的理解：
-+ [JavaScript · MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-+ [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-+ [JavaScript 高级程序设计](https://book.douban.com/subject/10546125/)
-+ [菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
++ hexo: 静态网站模版引擎
++ gitee Pages: 挂载博客的服务器
++ 七牛云: 将静态图片都存放于又拍云上
++ gulp: 用于网站的静态文件自动合并压缩，并部署
 
-## Contributing
+## 安装依赖环境
 
-所有内容均为手打，且带有部分个人理解，难免存在各种各样的问题。
+```
+# 如果系统中没有 nodejs 环境，请先安装
+# 安装依赖的 npm 包
+npm install
+# or
+yarn
+```
 
-如果您对本站点有一些疑惑，或发现了一些 bug，或建议增加新的 feature，或对系统有一些改进时，欢迎在 [issue board](https://github.com/wencaizhang/oh-my-js/issues)（项目地址为：[oh-my-js· GitHub](https://github.com/wencaizhang/oh-my-js)） 中讨论。如果发现有重大问题可发 Email 至 <a href="mailto:1052642137@qq.com">1052642137@qq.com</a>
-
-## 地址
-
-文档地址：[http://wencaizhang.com/oh-my-js/](http://wencaizhang.com/oh-my-js/)
-
-备用地址：[https://wencaizhang.github.io/oh-my-js/](https://wencaizhang.github.io/oh-my-js/)
-
-## End
-
-Just for fun! :stuck_out_tongue_closed_eyes:
+## 编译与部署
+npm run build    # 本地编译
+npm run dev      # 本地编译并启动测试服务器
+gulp             # 压缩静态文件
