@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/10-Array.includes/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.454Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/07-Array.entries/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.437Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/03-Array.copyWithin/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.429Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/04-Array.find/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.413Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/08-Array.keys/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.329Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/09-Array.values/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.320Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/06-Array.fill/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.304Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/02-Array.of/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.304Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/01-Array.from/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.268Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/03-Array-ES6/05-Array.findIndex/</loc>
+    
+    <lastmod>2018-12-25T03:57:13.268Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/09-Array.reduceRight/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.483Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/06-Array.indexOf/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.456Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/10-Array.isArray/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.438Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/07-Array.lastIndexOf/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.428Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/08-Array.reduce/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/02-Array.map/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.421Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/05-Array.every/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/01-Array.forEach/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/04-Array.some/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/02-Array-ES5/03-Array.filter/</loc>
+    
+    <lastmod>2018-12-25T03:56:58.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/09-Array.reverse/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.912Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/08-Array.splice/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.912Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/06-Array.unshift/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/07-Array.slice/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/04-Array.pop/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.845Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/05-Array.shift/</loc>
+    
+    <lastmod>2018-12-25T03:56:12.845Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/10-Array.sort/</loc>
+    
+    <lastmod>2018-12-25T03:56:11.583Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/03-Array.push/</loc>
+    
+    <lastmod>2018-12-25T03:55:52.199Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/02-Array.join/</loc>
+    
+    <lastmod>2018-12-25T03:55:48.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/01-Array-ES3/01-Array.concat/</loc>
+    
+    <lastmod>2018-12-25T03:55:46.341Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/02-Regexp.test/</loc>
+    
+    <lastmod>2018-12-25T03:43:42.562Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/100-regexp-demos/</loc>
+    
+    <lastmod>2018-12-25T03:43:36.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/07-String.prototype.split/</loc>
+    
+    <lastmod>2018-12-25T03:43:25.946Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/06-String.prototype.replace/</loc>
+    
+    <lastmod>2018-12-25T03:43:20.542Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/05-String.prototype.match/</loc>
+    
+    <lastmod>2018-12-25T03:43:12.511Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/04-String.prototype.search/</loc>
+    
+    <lastmod>2018-12-25T03:43:00.621Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/03-Regexp.exec/</loc>
+    
+    <lastmod>2018-12-25T03:42:48.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/01-Regexp.lastIndex/</loc>
+    
+    <lastmod>2018-12-25T03:42:21.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/0-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%A2%84%E6%9F%A5/</loc>
+    
+    <lastmod>2018-12-25T03:42:14.780Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/06-Regexp/00-Regexp/</loc>
+    
+    <lastmod>2018-12-25T03:42:07.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/07-Object.defineProperty/</loc>
+    
+    <lastmod>2018-12-25T03:41:40.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/06-Object.is/</loc>
+    
+    <lastmod>2018-12-25T03:41:25.254Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/05-Object.assign/</loc>
+    
+    <lastmod>2018-12-25T03:41:14.345Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/04-Object.entries/</loc>
+    
+    <lastmod>2018-12-25T03:41:04.098Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/03-Object.values/</loc>
+    
+    <lastmod>2018-12-25T03:40:50.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/02-Object.keys/</loc>
+    
+    <lastmod>2018-12-25T03:40:36.716Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/05-Object/01-hasOwnProperty/</loc>
+    
+    <lastmod>2018-12-25T03:40:19.454Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/04-String/002-String.toUpperCase/</loc>
+    
+    <lastmod>2018-12-25T03:40:02.335Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/oh-my-js/04-String/001-String.toLowerCase/</loc>
+    
+    <lastmod>2018-12-25T03:39:54.539Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2018-12-25T02:22:42.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2018-12-25T02:22:42.303Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-12-25T02:22:42.280Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/hello-world/</loc>
+    
+    <lastmod>2018-12-25T02:19:10.974Z</lastmod>
+    
+  </url>
+  
+</urlset>
