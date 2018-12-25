@@ -6,7 +6,7 @@ date: 2018-01-07 23:01:00
 ---
 ## 搭建博客的思路
 1. 使用框架 `Hexo` [文档](https://hexo.io/zh-cn/docs/) 将 markdown 文章解析成静态网页
-1. 借助 `GitHub Pages` 展示静态网页的功能，部署解析出来的静态网页（[What is GitHub Pages](/blog/2018/01/09/GitHub-Pages/)）
+1. 借助 `GitHub Pages` 展示静态网页的功能，部署解析出来的静态网页（[hexo 备份](/blog/2018/01/09/GitHub-Pages/)）
 
 <!-- more -->
 
