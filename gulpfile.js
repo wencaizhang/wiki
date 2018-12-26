@@ -3,6 +3,7 @@ const minifycss = require("gulp-minify-css");
 const uglify = require("gulp-uglify");
 const htmlmin = require("gulp-htmlmin");
 const htmlclean = require("gulp-htmlclean");
+const imagemin = require('gulp-imagemin');
 
 gulp.task("minify-css", function() {
   return gulp
@@ -41,4 +42,13 @@ gulp.task("minify-js", function() {
     .pipe(gulp.dest("./public"));
 });
 
-gulp.task("default", ["minify-html", "minify-css", "minify-js"]);
+//图片压缩
+gulp.task('minify-images', function() {
+  gulp.src('./public/images/*.*')
+      .pipe(imagemin({
+          progressive: false
+      }))
+      .pipe(gulp.dest("./public/images"));
+});
+
+gulp.task("default", ["minify-html", "minify-css", "minify-js", "minify-images"]);
