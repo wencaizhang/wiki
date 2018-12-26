@@ -6,7 +6,7 @@ tags:
 date: 2018-12-13 10:51:00
 ---
 
-有了下面的 css 代码，给任意的标签（button、a、span等等）加上一个类名 `spin-loading`，标签自动变成 loading 状态，方便快捷效果好。
+有了下面的 css 代码，给**任意的标签**（button、a、span等等）加上一个类名 `spin-loading`，就能使标签自动变成 loading 状态，方便快捷效果好。
 
 <!-- more -->
 
