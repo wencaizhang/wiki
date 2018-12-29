@@ -1,9 +1,8 @@
 ---
 title: vue 全局公用函数
-tags:
-  - vue
+tags: [vue]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 

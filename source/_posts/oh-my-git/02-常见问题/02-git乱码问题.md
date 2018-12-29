@@ -2,7 +2,7 @@
 title: Git 乱码
 date: 2017-02-20 00:28:21
 toc: true
-tags: [git]
+tags: [git, tool]
 ---
 
 在 Linux 如果要提交的文件名是中文的，使用 `git status` 或者 `git commit` 的时候就会把中文显示为一串数字如下：

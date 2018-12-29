@@ -2,11 +2,16 @@
 
 本博客遵循MIT开源协议。
 
+## 访问地址
+
++ 个人服务器：[https://wiki.wencaizhang.com](https://wiki.wencaizhang.com)
++ 托管在码云：[https://wencaizhang.gitee.io](https://wencaizhang.gitee.io)
+
 ## 如何组建出我的博客
 
 + hexo: 静态网站模版引擎
 + gitee Pages: 挂载博客的服务器
-+ 七牛云: 将静态图片都存放于又拍云上
++ 七牛云: 将静态图片都存放于七牛云上  // todo
 + gulp: 用于网站的静态文件自动合并压缩，并部署
 
 ## 安装依赖环境

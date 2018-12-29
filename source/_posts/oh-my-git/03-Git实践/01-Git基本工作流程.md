@@ -2,7 +2,7 @@
 title: Git基本工作流程
 date: 2017-02-20 00:28:21
 toc: true
-tags: [git]
+tags: [git, tool]
 ---
 
 ## 代码仓库已经存在

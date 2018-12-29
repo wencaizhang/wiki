@@ -1,9 +1,7 @@
 ---
 title: ElementUI（Vue）中按照百分比对表格排序
-tags:
-  - vue
-  - 排序
-  - js
+tags: [vue, 排序, js]
+toc: true
 date: 2018-12-26 18:20:53
 ---
 

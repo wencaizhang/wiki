@@ -1,10 +1,8 @@
 ---
 title: vuex 状态持久化之vuex-persistedstate
-tags:
-  - vue
-  - storage
+tags: [vue, storage]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 ### 安装

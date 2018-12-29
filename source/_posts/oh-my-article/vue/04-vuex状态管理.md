@@ -1,9 +1,8 @@
 ---
 title: vuex 状态管理
-tags:
-  - vue
+tags: [vue]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 从使用的角度来看

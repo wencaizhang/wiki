@@ -1,10 +1,8 @@
 ---
 title: 解决 Invalid Host header 问题
-tags:
-  - vue
-  - webpack
+tags: [vue, webpack]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 执行命令 `npm run dev` 启动本地服务器之后，发现只能在本地访问，不能通过局域网ip和服务器域名来访问。 

@@ -1,9 +1,8 @@
 ---
 title: header和footer组件化
-tags:
-  - vue
+tags: [vue]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 我们在建设网站时总会遇到这样的问题：在大部分的页面我们需要显示 header 和 footer，分别用于展示网站 logo、顶部导航和底部版权信息等内容。

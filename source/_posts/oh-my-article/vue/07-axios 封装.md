@@ -1,9 +1,8 @@
 ---
 title: axios 封装
-tags:
-  - vue
+tags: [vue, axios]
+toc: true
 date: 2017-11-24 20:20:53
-updated: 2017-12-30 10:20:33
 ---
 
 ## 拦截器
