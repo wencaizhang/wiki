@@ -523,7 +523,7 @@
     <link href="http://yoursite.com/wiki/oh-my-article/blog/hexo-basic-usage/"/>
     <id>http://yoursite.com/wiki/oh-my-article/blog/hexo-basic-usage/</id>
     <published>2018-05-18T12:35:00.000Z</published>
-    <updated>2018-12-25T08:02:06.072Z</updated>
+    <updated>2019-01-04T07:58:46.017Z</updated>
     
     <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><blockquote><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p></blockquote><a id="more"></a><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>全局安装 hexo 脚手架：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p><h2 id="创建博客"><a href="#创建博客" class="headerlink" title="创建博客"></a>创建博客</h2><p>在 <code>blog</code> 目录下新建一个网站，然后安装 <code>npm</code> 依赖：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul><li><p>生成静态网站</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></li><li><p>启动服务器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></li><li><p>清除缓存文件 (db.json) 和已生成的静态文件 (public)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li><li><p>新建一篇文章</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></li></ul><h2 id="小Tips"><a href="#小Tips" class="headerlink" title="小Tips"></a>小Tips</h2><p>在 <code>package.json</code> 中自定义 <code>npm scripts</code> 脚本：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">"scripts": &#123;</span><br><span class="line">  "dev": "hexo clean &amp;&amp; hexo g &amp;&amp; hexo s",</span><br><span class="line">"build": "hexo clean &amp;&amp; hexo g &amp;&amp; hexo d"</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p><a href="https://hexo.io/zh-cn/docs/" rel="external nofollow noopener noreferrer" target="_blank">Hexo 文档</a></p>]]></content>
     
@@ -541,6 +541,8 @@
     
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
   </entry>
   
