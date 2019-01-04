@@ -1,8 +1,6 @@
 title: hexo 基本使用备忘
 author: wencaizhang
-tags:
-  - hexo
- 
+tags: [blog, hexo]
 date: 2018-05-18 20:35:00
 ---
 

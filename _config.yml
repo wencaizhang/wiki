@@ -16,7 +16,7 @@ timezone:
 # url: https://wencaizhang.gitee.io
 # root: /wiki
 # permalink: :year/:month/:day/:title/
-permalink: wiki/:title/
+permalink: :year-:month-:day/:title/
 permalink_defaults:
 
 # Directory
@@ -113,3 +113,4 @@ deploy:
   type: git
   repo: git@gitee.com:wencaizhang/wencaizhang.git
   branch: gh-pages #published
+  message: :memo:Site updated:{{ now('YYYY-MM-DD HH:mm:ss') }}

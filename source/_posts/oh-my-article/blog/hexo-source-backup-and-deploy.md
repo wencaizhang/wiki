@@ -1,6 +1,5 @@
 title: hexo 备份
-tags:
-  - hexo
+tags: [blog, hexo]
 author: wencaizhang
 date: 2018-01-07 23:01:00
 ---
